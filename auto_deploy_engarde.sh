@@ -18,7 +18,7 @@ generate_index_html() {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Živé výsledky turnaje</title>
+    <title>Živé výsledky turnaje na PF</title>
 EOF
 
     # Přidáme originální styl z Engarde (aby tabulky vypadaly správně)
