@@ -404,7 +404,7 @@
  marge1 marge2 marge_dte)
   fiche_table ()
   genre masculin
-  nombre 3
+  nombre 4
   modifie vrai
 )
 
