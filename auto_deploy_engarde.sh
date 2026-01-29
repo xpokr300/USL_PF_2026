@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- KONFIGURACE ---
-GIT_BRANCH="main"      # Název tvé větve na GitHubu
+GIT_BRANCH="master"      # Název tvé větve na GitHubu
 CHECK_INTERVAL=10      # Kontrola každých 10 sekund
 OUTPUT_FILE="index.html"
 
