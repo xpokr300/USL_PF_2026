@@ -9,30 +9,29 @@ OUTPUT_FILE="index.html"
 generate_index_html() {
     TEMP_OUTPUT="${OUTPUT_FILE}.temp"
     
-    # Najdeme první exportovaný soubor, abychom z něj ukradli originální Engarde styl
+    # Najdeme první exportovaný soubor, abychom z něj převzali originální styl Engarde
     FIRST_HTM=$(ls -d *-AUX/*.htm 2>/dev/null | head -n 1)
 
-    # 1. HLAVIČKA - Přebereme styl přímo z Engarde
+    # 1. HLAVIČKA - Nastavení kódování a převzetí stylu
     echo "<!DOCTYPE html><html><head><meta charset='utf-8'>" > "$TEMP_OUTPUT"
     
     if [ -n "$FIRST_HTM" ]; then
-        # Vytáhneme originální <style> sekci a převedeme ji do UTF-8
+        # Vytáhneme originální sekci <style> a převedeme ji do UTF-8 (aby fungovaly čáry a písmo)
         iconv -f windows-1250 -t utf-8 "$FIRST_HTM" | sed -n '/<[Ss][Tt][Yy][Ll][Ee]>/,/<\/[Ss][Tt][Yy][Ll][Ee]>/p' >> "$TEMP_OUTPUT"
     fi
     
-    echo "</head><body style='background:#fff; font-family:sans-serif;'>" >> "$TEMP_OUTPUT"
+    echo "</head><body style='background:#fff; font-family:sans-serif; padding:20px;'>" >> "$TEMP_OUTPUT"
     echo "<h1 style='text-align:center;'>Výsledky turnaje (Live)</h1>" >> "$TEMP_OUTPUT"
 
-    # 2. MERGE OBSAHU
+    # 2. SLUČOVÁNÍ OBSAHU
     for dir in $(ls -td *-AUX/ 2>/dev/null); do
         dirname=$(basename "$dir" "-AUX")
-        echo "<hr><h2>Turnaj: $dirname</h2>" >> "$TEMP_OUTPUT"
+        echo "<hr><h2 style='color:#000;'>Turnaj: $dirname</h2>" >> "$TEMP_OUTPUT"
         
         for file in "$dir"*.htm; do
             [ -e "$file" ] || continue
             
-            # Převedeme kódování a vytáhneme vnitřek BODY (včetně velkých písmen)
-            # Zároveň opravíme cesty k obrázkům, aby fungovaly z rootu
+            # OPRAVA: iconv vyřeší diakritiku, [Bb][Oo][Dd][Yy] najde data i ve velkých písmenech
             iconv -f windows-1250 -t utf-8 "$file" | \
             sed -n '/<[Bb][Oo][Dd][Yy][^>]*>/,/<\/[Bb][Oo][Dd][Yy]>/p' | \
             sed '1d;$d' | \
@@ -43,7 +42,7 @@ generate_index_html() {
         done
     done
 
-    echo "<p style='text-align:center; font-size:0.7em; color:gray;'>Poslední aktualizace: $(date '+%H:%M:%S')</p>" >> "$TEMP_OUTPUT"
+    echo "<p style='text-align:center; font-size:0.7em; color:gray;'>Aktualizováno: $(date '+%H:%M:%S')</p>" >> "$TEMP_OUTPUT"
     echo "</body></html>" >> "$TEMP_OUTPUT"
 
     mv "$TEMP_OUTPUT" "$OUTPUT_FILE"
