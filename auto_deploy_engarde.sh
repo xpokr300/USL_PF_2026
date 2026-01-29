@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # --- KONFIGURACE ---
-GIT_BRANCH="master"
-CHECK_INTERVAL=10
+GIT_BRANCH="main"
 OUTPUT_FILE="index.html"
 
 generate_index_html() {
@@ -18,7 +17,7 @@ generate_index_html() {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Živé výsledky turnaje na PF</title>
+    <title>Živé výsledky turnaje</title>
 EOF
 
     # Přidáme originální styl z Engarde (aby tabulky vypadaly správně)
@@ -55,7 +54,7 @@ EOF
             filename=$(basename "$file" .htm)
             [[ "$filename" == "index" || "$filename" == "navbar" ]] && continue
             
-            # TADY JE TA ZMĚNA: Žádné "Sekce: xxx", jen čistá data z Engarde
+            # Pouze čistá data z Engarde bez nadpisů sekcí
             iconv -f windows-1250 -t utf-8 "$file" 2>/dev/null | \
             sed -n '/<[Bb][Oo][Dd][Yy][^>]*>/,/<\/[Bb][Oo][Dd][Yy]>/p' | \
             sed '1d;$d' | \
@@ -69,16 +68,33 @@ EOF
     mv "$TEMP_OUTPUT" "$OUTPUT_FILE"
 }
 
-# --- SMYČKA PRO GIT ---
-echo "--- Automatizace spuštěna ---"
+# --- RUČNÍ SPOUŠTĚNÍ ---
+echo "===================================================="
+echo " MANUÁLNÍ DEPLOYER ENGARDE VÝSLEDKŮ"
+echo "===================================================="
+echo "Větev: $GIT_BRANCH | Vercel limit: 100/den"
+echo ""
+
 while true; do
-    generate_index_html
-    if [ -n "$(git status --porcelain)" ]; then
-        echo "ÚSPĚCH: Odesíláno na GitHub."
-        git add .
-        git commit -m "Update $(date '+%H:%M')"
-        git push origin "$GIT_BRANCH"
-        echo "---------------------------------------------"
+    echo ">>> Stiskni [ENTER] pro aktualizaci webu a odeslání na GitHub"
+    echo ">>> Stiskni [Q] a Enter pro ukončení"
+    read -r input
+
+    if [[ $input == "q" || $input == "Q" ]]; then
+        echo "Ukončuji..."
+        exit 0
     fi
-    sleep "$CHECK_INTERVAL"
+
+    # Spustíme generování
+    generate_index_html
+    
+    # Odeslání na GitHub
+    echo "--- Generuji index.html a odesílám... ---"
+    git add .
+    git commit -m "Manual update: $(date '+%H:%M:%S')"
+    git push origin "$GIT_BRANCH"
+    
+    echo ""
+    echo "ÚSPĚCH: Odesláno. Za chvíli se to projeví na Vercelu."
+    echo "----------------------------------------------------"
 done
