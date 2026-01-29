@@ -59,6 +59,8 @@
   club ()
   ligue ()
   nation ()
+  poules_a_saisir (1)
+  poules_a_imprimer (1)
 )
 
 (def formule
@@ -94,7 +96,9 @@
   qual_fin_poules_sur 1
   clas_fin_poules_sur 1
   nombre_touches_tableaux 15
-  etat debut
+  etat poules
+  etattour en_cours
+  nutour 1
 )
 
 (def tour_de_poules
