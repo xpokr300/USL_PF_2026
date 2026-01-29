@@ -64,17 +64,19 @@
 (def formule
   type formule
   nombre_entites {[type entier] [taille 32] [taillecar 3] [defaut 100] [nomchamp nombre_entites] [texte
- nombre_entites]}
+ nombre_entites] }
   clasmt_origine {[type serie_points] [taille 50] [taillecar 7] [defaut serie] [nomchamp clasmt_origine]
- [texte clasmt_origine]}
+ [texte clasmt_origine] [enumere (("n" serie "nasazení") ("b" points "body"))] }
   entree_progressive {[type oui_non] [taille 40] [taillecar 3] [defaut non] [nomchamp entree_progressive]
- [texte entree_progressive]}
-  nombre_touches_poules {[type entier] [defaut 5] [nomchamp nombre_touches_poules] [texte nombre_touches_poules]}
+ [texte entree_progressive] [enumere (("a" oui "ano") ("n" non "ne"))] }
+  nombre_touches_poules {[type entier] [defaut 5] [nomchamp nombre_touches_poules] [texte nombre_touches_poules]
+ }
   qual_fin_poules_sur {[type entier] [taille 32] [taillecar 3] [defaut 1] [nomchamp qual_fin_poules_sur]
- [texte qual_fin_poules_sur]}
+ [texte qual_fin_poules_sur] }
   clas_fin_poules_sur {[type entier] [taille 32] [taillecar 3] [defaut 1] [nomchamp clas_fin_poules_sur]
- [texte clas_fin_poules_sur]}
-  nombre_touches_tableaux {[type entier] [defaut 15] [nomchamp nombre_touches_tableaux] [texte nombre_touches_tableaux]}
+ [texte clas_fin_poules_sur] }
+  nombre_touches_tableaux {[type entier] [defaut 15] [nomchamp nombre_touches_tableaux] [texte nombre_touches_tableaux]
+ }
   typetype entite
   champs_affiches (nombre_entites clasmt_origine entree_progressive nombre_touches_poules qual_fin_poules_sur
  clas_fin_poules_sur nombre_touches_tableaux)
@@ -85,14 +87,13 @@
 
 (def ma_formule
   classe formule
-  nombre_entites 100
+  nombre_entites 4
   clasmt_origine serie
   entree_progressive non
   nombre_touches_poules 5
   qual_fin_poules_sur 1
   clas_fin_poules_sur 1
   nombre_touches_tableaux 15
-  modifie vrai
   etat debut
 )
 
@@ -145,7 +146,8 @@
  qualifies_indice qualifies entites_fin)
   fiche_table ()
   genre masculin
-  nombre 0
+  nombre 1
+  modifie vrai
 )
 
 (def suite_tableaux
@@ -209,7 +211,8 @@
  limite_decal protege_debut entites_dans_tableau qualifies)
   fiche_table ()
   genre masculin
-  nombre 0
+  nombre 1
+  modifie vrai
 )
 
 (def description_tableau
@@ -247,6 +250,8 @@
  groupe_clasmt_vainqueur groupe_clasmt_battus rang_premier_vainqueur rang_premier_battu)
   fiche_table ()
   genre masculin
+  modifie vrai
+  nombre 10
 )
 
 (def criteres_arbitres

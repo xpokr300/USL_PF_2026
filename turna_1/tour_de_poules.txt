@@ -1,0 +1,4 @@
+{[classe tour_de_poules] [entites_exemptees 0] [nombre_poules 1] [entites_par_poule
+ 6] [qualifies_par_poule 0] [qualifies_indice 3] [qualifies 3] [entites_fin 3] [numero
+ 1] [entites_depart 4] [entites_dans_poules 4] [critere_decal_1 nation] [critere_placement
+ nation] [cle 1]}
