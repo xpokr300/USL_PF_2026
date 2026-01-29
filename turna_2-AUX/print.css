@@ -1,0 +1,10 @@
+/*
+ * Print styles for Engarde
+ *
+ * The only thing we really need to override are the font and font size
+ */
+
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 11pt;
+}

@@ -1,0 +1,198 @@
+/*
+ * This is a simple style sheet for the Engarde HTML overall ranking output.
+ */
+
+body {
+  background-color : #fff;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100.1%pt
+}
+
+h1 {
+  font-size : 240%;
+  text-align : center;
+}
+
+h2 {
+  font-size : 180%;
+  text-align : center;
+}
+
+h3 {
+  font-size : 140%;
+}
+
+/*
+ * This is a general list table that can be used for all the output
+ * apart from the poules and the tableaux
+ */
+
+table.liste {
+  font-size: 100%;
+  color: #000;
+  background-color: #fff;
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+
+/* This is the row for the header and footer */
+
+table.liste th {
+  color: #4682b4;
+  background-color: #ffefd5;
+  border: 1px solid #2f4f4f;
+  padding: 2px 0.5em;
+}
+
+/* Border style for the table data cells */
+table.liste td {
+  border: 1px solid #2f4f4f;
+  padding: 2px 0.5em;
+}
+
+/* Auxiliary styles for colour and alignment */
+
+.color1 {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.color2 {
+  background-color: #c0c0c0;
+  color: #000;
+}
+
+.color4 {
+  background-color: #b8860b;
+  color: #000;
+}
+
+.color8 {
+  background-color: #cfc;
+  color: #000;
+}
+
+.color16 {
+  background-color: #fffacd;
+  color: #000;
+}
+
+.color32 {
+  background-color: #ffc0cb;
+  color: #000;
+}
+
+.color64 {
+  background-color: #b8d9dc;
+  color: #000;
+}
+
+.color128 {
+  background-color: #fffacd;
+  color: #000;
+}
+.color256 {
+  background-color: #ffc0cb;
+  color: #000;
+}
+.color512 {
+  background-color: #b8d9dc;
+  color: #000;
+}
+
+.pair {
+  background-color: #eee;
+  color: #000;
+}
+
+.impair {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Alignment for numbers */
+.nombre {
+  text-align: right;
+}
+
+.centre {
+  text-align: center;
+}
+
+/*
+ * Styles for poule table output
+ */
+
+table.poule {
+  font-size: 90%;
+  color: #000;
+  background-color: #fff;
+  border-collapse: collapse;
+  border: 2px solid #000;
+}
+
+table.poule th {
+  color: #4682b4;
+  background-color: #ffefd5;
+  border: 1px solid #2f4f4f;
+  padding: 2px 0.5em;
+}
+
+/* Border style for the table data cells */
+
+table.poule td {
+  border: 1px solid #2f4f4f;
+  padding: 2px 0.5em;
+}
+
+/* The diagonal box in the poule table */
+
+.inutilise {
+  background-color: #bbb;
+  color: #000;
+}
+
+/*
+ * Tableau styles
+ */
+
+table.tableau {
+  font-size: 90%;
+  color: #000;
+  background-color: #fff;
+  border: 0;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+  empty-cells: show;
+}
+
+/* Styles to build the diagram */
+
+.ligne {
+  border-right: solid #000 1px;
+  margin: 0;
+}
+
+.boite {
+  border: solid #000 1px;
+  margin: 0;
+}
+
+
+td.D {border-right:solid windowtext .5pt;}
+
+td.BD {border-bottom:solid windowtext .5pt;
+       border-right:solid windowtext .5pt;}
+
+td.GBD {border-left:solid windowtext .5pt;
+        border-bottom:solid windowtext .5pt;
+        border-right:solid windowtext .5pt;}
+
+td.HBD {border-top:solid windowtext .5pt;
+        border-bottom:solid windowtext .5pt;
+        border-right:solid windowtext .5pt;}
+
+td.HGBD {border:solid windowtext .5pt;}
+
