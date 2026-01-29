@@ -74,19 +74,19 @@ EOF
 }
 
 # # --- FUNKCE 2: GIT PUSH (Odešle všechno na GitHub) ---
-# git_push_everything() {
-#     echo "--- DETEKOVÁNA ZMĚNA - ODESÍLÁM NA GITHUB ---"
-#     git add .
-#     COMMIT_MSG="Auto-update výsledků: $(date '+%Y-%m-%d %H:%M:%S')"
-#     if git commit -m "$COMMIT_MSG"; then
-#         if git push origin "$GIT_BRANCH"; then
-#             echo "ÚSPĚCH: Odesláno na GitHub."
-#         else
-#             echo "CHYBA: Push selhal."
-#         fi
-#     fi
-#     echo "---------------------------------------------"
-# }
+git_push_everything() {
+    echo "--- DETEKOVÁNA ZMĚNA - ODESÍLÁM NA GITHUB ---"
+    git add .
+    COMMIT_MSG="Auto-update výsledků: $(date '+%Y-%m-%d %H:%M:%S')"
+    if git commit -m "$COMMIT_MSG"; then
+        if git push origin "$GIT_BRANCH"; then
+            echo "ÚSPĚCH: Odesláno na GitHub."
+        else
+            echo "CHYBA: Push selhal."
+        fi
+    fi
+    echo "---------------------------------------------"
+}
 
 # --- HLAVNÍ SMYČKA ---
 echo "=== Startuji kompletní automatický deployer Engarde ==="
