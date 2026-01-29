@@ -9,31 +9,30 @@ OUTPUT_FILE="index.html"
 generate_index_html() {
     TEMP_OUTPUT="${OUTPUT_FILE}.temp"
     
-    # Najdeme první htm soubor, abychom z něj vykopírovali originální styl
+    # Najdeme první exportovaný soubor, abychom z něj ukradli originální Engarde styl
     FIRST_HTM=$(ls -d *-AUX/*.htm 2>/dev/null | head -n 1)
 
-    # 1. ZAČÁTEK SOUBORU - Přebereme originální styl z Engarde
+    # 1. HLAVIČKA - Přebereme styl přímo z Engarde
     echo "<!DOCTYPE html><html><head><meta charset='utf-8'>" > "$TEMP_OUTPUT"
     
     if [ -n "$FIRST_HTM" ]; then
-        # Vytáhneme vše mezi <head> a </head> z prvního souboru a převedeme na UTF-8
-        iconv -f windows-1250 -t utf-8 "$FIRST_HTM" | sed -n '/<[Hh][Ee][Aa][Dd]>/,/<\/[Hh][Ee][Aa][Dd]>/p' | sed '1d;$d' >> "$TEMP_OUTPUT"
+        # Vytáhneme originální <style> sekci a převedeme ji do UTF-8
+        iconv -f windows-1250 -t utf-8 "$FIRST_HTM" | sed -n '/<[Ss][Tt][Yy][Ll][Ee]>/,/<\/[Ss][Tt][Yy][Ll][Ee]>/p' >> "$TEMP_OUTPUT"
     fi
     
-    echo "</head><body style='background:#fff;'>" >> "$TEMP_OUTPUT"
-    echo "<h1 style='text-align:center; font-family:sans-serif;'>Aktuální výsledky</h1>" >> "$TEMP_OUTPUT"
+    echo "</head><body style='background:#fff; font-family:sans-serif;'>" >> "$TEMP_OUTPUT"
+    echo "<h1 style='text-align:center;'>Výsledky turnaje (Live)</h1>" >> "$TEMP_OUTPUT"
 
-    # 2. PROJDEME SLOŽKY A VLOŽÍME OBSAH
+    # 2. MERGE OBSAHU
     for dir in $(ls -td *-AUX/ 2>/dev/null); do
         dirname=$(basename "$dir" "-AUX")
-        
-        # Přidáme nadpis turnaje v Engarde stylu
-        echo "<hr><h2 style='font-family:sans-serif; background:#eee; padding:5px;'>Turnaj: $dirname</h2>" >> "$TEMP_OUTPUT"
+        echo "<hr><h2>Turnaj: $dirname</h2>" >> "$TEMP_OUTPUT"
         
         for file in "$dir"*.htm; do
             [ -e "$file" ] || continue
             
-            # Vložíme obsah body tak, jak je, jen opravíme cesty k obrázkům
+            # Převedeme kódování a vytáhneme vnitřek BODY (včetně velkých písmen)
+            # Zároveň opravíme cesty k obrázkům, aby fungovaly z rootu
             iconv -f windows-1250 -t utf-8 "$file" | \
             sed -n '/<[Bb][Oo][Dd][Yy][^>]*>/,/<\/[Bb][Oo][Dd][Yy]>/p' | \
             sed '1d;$d' | \
@@ -44,7 +43,7 @@ generate_index_html() {
         done
     done
 
-    echo "<p style='text-align:center; font-size:0.7em; font-family:sans-serif;'>Poslední aktualizace: $(date '+%H:%M:%S')</p>" >> "$TEMP_OUTPUT"
+    echo "<p style='text-align:center; font-size:0.7em; color:gray;'>Poslední aktualizace: $(date '+%H:%M:%S')</p>" >> "$TEMP_OUTPUT"
     echo "</body></html>" >> "$TEMP_OUTPUT"
 
     mv "$TEMP_OUTPUT" "$OUTPUT_FILE"
