@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- KONFIGURACE ---
-GIT_BRANCH="main"
+GIT_BRANCH="master"
 OUTPUT_FILE="index.html"
 
 generate_index_html() {
