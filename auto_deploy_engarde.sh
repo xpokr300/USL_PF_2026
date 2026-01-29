@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- KONFIGURACE ---
-GIT_BRANCH="main"
+GIT_BRANCH="master"
 CHECK_INTERVAL=10
 OUTPUT_FILE="index.html"
 
