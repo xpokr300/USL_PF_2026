@@ -6,6 +6,8 @@ INDEX_FILE="index.html"
 
 generate_pages() {
     # Vyčistíme starý index a začneme nový
+     # Logo na začátek
+    echo "<div style='text-align:center;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$TEMP_OUTPUT"
     echo "<!DOCTYPE html><html><head><meta charset='utf-8'><title>Výsledky šermu</title>" > "$INDEX_FILE"
     echo "<style>
         body { font-family: sans-serif; text-align: center; background: #f4f4f4; padding: 50px; }
