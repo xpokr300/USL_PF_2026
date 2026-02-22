@@ -59,6 +59,7 @@
   nation ()
   poules_a_saisir (8 7 6 5 4 3 2 1)
   poules_a_imprimer (8 7 6 5 4 3 2 1)
+  num_svg 1
 )
 
 (def formule

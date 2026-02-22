@@ -1,0 +1,4 @@
+{[classe tour_de_poules] [entites_exemptees 0] [nombre_poules 8] [entites_par_poule
+ 6] [qualifies_par_poule 0] [qualifies_indice 43] [qualifies 43] [entites_fin 43]
+ [numero 1] [entites_depart 43] [entites_dans_poules 43] [critere_decal_1 club] [critere_placement
+ club] [cle 1] [critere (club1)] [nombre_touches_poules 5]}
