@@ -4,4 +4,9 @@
  [ordre_des_matches odm5]
  [cas {[cas (2)] [ordre (1 2 3 4 5)] [odm odm5]}]
  [critere_placement club]
+ [grille (((*** ()) (d 0) (d 4) (d 3) (d 2)) ((v 5) (*** ()) (d 2) (d 2) (d 4)) ((v 5) (v
+ 5) (*** ()) (d 4) (d 1)) ((v 5) (v 5) (v 5) (*** ()) (d 3)) ((v 5) (v 5) (v 5) (v
+ 5) (*** ())))]
+ [scores ((e 5 5 4 0 9 20) (e 4 37 4 1 13 15) (e 3 22 4 2 15 16) (e 2 36 4 3 18 14) (e 1 19
+ 4 4 20 10))]
 }
