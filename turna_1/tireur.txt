@@ -1,8 +1,0 @@
-{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "DALI"]
- [prenom "Prihlaseny"] [serie 4] [cle 4]}
-{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "NOVÁK"]
- [prenom "Petr"] [serie 1] [cle 1]}
-{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "POKORNÝ"]
- [prenom "Anna"] [serie 2] [cle 2]}
-{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "TESTOVANI"]
- [prenom "Jan"] [cle 3] [serie 3]}

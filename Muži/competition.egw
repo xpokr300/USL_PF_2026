@@ -1,28 +1,28 @@
 (def competition
   type competition
-  titre_reduit {[type chaine] [taillecar 16] [nomchamp titre_reduit] [texte titre_reduit] }
-  titre_ligne {[type chaine] [taillecar 40] [nomchamp titre_ligne] [texte titre_ligne] }
-  organisateur {[type chaine] [taillecar 16] [nomchamp organisateur] [texte organisateur] }
-  federation {[type chaine] [taillecar 16] [nomchamp federation] [texte federation] }
+  titre_reduit {[type chaine] [taillecar 16] [nomchamp titre_reduit] [texte titre_reduit]}
+  titre_ligne {[type chaine] [taillecar 40] [nomchamp titre_ligne] [texte titre_ligne]}
+  organisateur {[type chaine] [taillecar 16] [nomchamp organisateur] [texte organisateur]}
+  federation {[type chaine] [taillecar 16] [nomchamp federation] [texte federation]}
   domaine_compe {[type domaine_compe] [taillecar 15] [defaut international] [nomchamp domaine_compe]
  [texte domaine_compe] [enumere (("m" international "mezinárodní") ("n" national
- "národní") ("r" regional "regionální") ("i" local "místní"))] }
-  championnat {[type chaine] [taillecar 16] [nomchamp championnat] [texte championnat] }
-  id {[type chaine] [taillecar 8] [nomchamp id] [texte id] }
-  annee {[type chaine] [taillecar 10] [nomchamp annee] [texte annee] }
+ "národní") ("r" regional "regionální") ("i" local "místní"))]}
+  championnat {[type chaine] [taillecar 16] [nomchamp championnat] [texte championnat]}
+  id {[type chaine] [taillecar 8] [nomchamp id] [texte id]}
+  annee {[type chaine] [taillecar 10] [nomchamp annee] [texte annee]}
   arme {[type arme] [taillecar 10] [nomchamp arme] [texte arme] [enumere (("f" fleuret "fleret")
- ("k" epee "kord") ("s" sabre "šavle"))] }
+ ("k" epee "kord") ("s" sabre "šavle"))]}
   categorie {[type categorie] [taillecar 10] [nomchamp categorie] [texte categorie] [enumere
  (("v" veteran "veterán") ("s" senior "seniori") ("j" junior "juniori") ("k" cadet
  "kadet") ("ž" minime "žáci") ("b" benjamin "benjamin") ("a" pupille "batole") ("u"
- poussin "kuøátko"))] }
+ poussin "kuøátko"))]}
   sexe {[type sexe] [taillecar 10] [defaut masculin] [nomchamp sexe] [texte sexe] [enumere
- (("m" masculin "muži") ("ž" feminin "ženy"))] }
-  date {[type date] [taillecar 10] [nomchamp date] [texte date] }
-  titre1 {[type chaine] [taillecar 40] [nomchamp titre1] [texte titre1] }
-  titre2 {[type chaine] [taillecar 40] [nomchamp titre2] [texte titre2] }
-  titre3 {[type chaine] [taillecar 40] [nomchamp titre3] [texte titre3] }
-  titre4 {[type chaine] [taillecar 40] [nomchamp titre4] [texte titre4] }
+ (("m" masculin "muži") ("ž" feminin "ženy"))]}
+  date {[type date] [taillecar 10] [nomchamp date] [texte date]}
+  titre1 {[type chaine] [taillecar 40] [nomchamp titre1] [texte titre1]}
+  titre2 {[type chaine] [taillecar 40] [nomchamp titre2] [texte titre2]}
+  titre3 {[type chaine] [taillecar 40] [nomchamp titre3] [texte titre3]}
+  titre4 {[type chaine] [taillecar 40] [nomchamp titre4] [texte titre4]}
   entites_premieres (tireur arbitre)
   tables (tireur arbitre club ligue nation)
   typetype entite
@@ -36,7 +36,7 @@
 
 (def ma_competition
   classe competition
-  domaine_compe international
+  domaine_compe national
   sexe masculin
   type_compe individuelle
   contexte {[federation ""] [texte_ligue etat] [info_categorie ((veteran 41 120) (senior 21
@@ -46,19 +46,17 @@
   federation ""
   version "                ENGARDE Version 8.16 - 11/11/2005"
   version_fic 80
-  titre_ligne "Testing tournament"
+  titre_ligne "Univerzitní šermíøská liga - 4.kolo 2025/2026"
   organisateur "VSK Humanita Praha"
-  annee "1."
   arme epee
-  categorie veteran
-  titre1 "Toto je testovaci turnaj"
-  titre2 "Toto je taky test"
-  titre3 "Testujeme"
+  categorie senior
+  date "~28/3/2026"
   tireur ()
   arbitre ()
   club ()
   ligue ()
   nation ()
+  nbtir_der_svg 43
 )
 
 (def formule
@@ -143,9 +141,9 @@
   tous_les_champs (numero entites_depart entites_exemptees entites_dans_poules nombre_poules entites_par_poule
  critere_decal_1 critere_decal_2 critere_decal_3 critere_placement limite_decal qualifies_par_poule
  qualifies_indice qualifies entites_fin)
-  fiche_table ()
   genre masculin
   nombre 0
+  fiche_table ()
 )
 
 (def suite_tableaux
@@ -207,9 +205,9 @@
   tous_les_champs (nom nom_etendu nom_tableaux origine1 origine2 origine3 origine4 origine5 origine6
  critere_constitution hasard_par_2 critere_decal_1 critere_decal_2 critere_decal_3
  limite_decal protege_debut entites_dans_tableau qualifies)
-  fiche_table ()
   genre masculin
   nombre 0
+  fiche_table ()
 )
 
 (def description_tableau
@@ -245,8 +243,9 @@
  groupe_clasmt_battus rang_premier_vainqueur rang_premier_battu)
   tous_les_champs (serie nom nom_etendu nombre_entites classe_apres destination_vainqueurs destination_battus
  groupe_clasmt_vainqueur groupe_clasmt_battus rang_premier_vainqueur rang_premier_battu)
-  fiche_table ()
   genre masculin
+  fiche_table ()
+  nombre 0
 )
 
 (def criteres_arbitres
@@ -316,17 +315,17 @@
   champs_pou_const_select (marge_gche nomprenom club1 nation1 rang serie marge1 marge2)
   champs_info_pou (marge_gche nomprenom nom prenom sexe club1 ligue1 nation1 grille_feuille marge1
  vic_match indice td rang dossard marge2)
-  champs_info_pou_select (marge_gche nomprenom nation1 grille_feuille marge1 vic_match indice td rang marge2)
+  champs_info_pou_select (marge_gche nomprenom club1 grille_feuille marge1 vic_match indice td rang marge2)
   champs_info_tab (marge_gche num nomprenom nom prenom sexe club1 ligue1 nation1 dossard)
-  champs_info_tab_select (marge_gche num nomprenom nation1)
+  champs_info_tab_select (marge_gche num nomprenom club1)
   champs_info_tab_arbi (marge_gche num titre nomprenom nom prenom sexe club1 ligue1 nation1 dossard)
   champs_info_tab_arbi_select (marge_gche num titre nomprenom nation1)
   champs_feuilles_pou (marge_gche nomprenom nom prenom sexe club1 ligue1 nation1 num grille_feuille signature
  vic_match indice td rang dossard marge1 marge2)
-  champs_feuilles_pou_select (marge_gche nomprenom nation1 num grille_feuille signature marge1 marge2)
+  champs_feuilles_pou_select (marge_gche nomprenom club1 num grille_feuille signature marge1 marge2)
   champs_feuilles_match (marge_gche nomprenom nom prenom sexe club1 ligue1 nation1 num grille_match signature
  dossard marge1 marge2)
-  champs_feuilles_match_select (marge_gche nomprenom nation1 grille_match signature marge1 marge2)
+  champs_feuilles_match_select (marge_gche nomprenom club1 grille_match signature marge1 marge2)
   num {[type entier] [texte numero] [taille 16] [sans_saisie vrai] [invisible vrai] [nomchamp
  num]}
   cle {[type entier] [taille 16] [sans_saisie vrai] [invisible vrai] [nomchamp cle] [texte
@@ -356,11 +355,11 @@
  nom] [texte nom] [no_col 1001] [taille_doc 150] }
   prenom {[type chaine] [taille 80] [taillecar 20] [style titre] [nomchamp prenom] [texte
  prenom] [no_col 1002] [taille_doc 120] }
-  presence {[type presence] [taille 24] [taillecar 10] [defaut present] [nomchamp presence]
+  presence {[type presence] [taille 120] [taillecar 10] [defaut present] [nomchamp presence]
  [texte presence] [no_col 1003] [taille_doc 36] [enumere (("p" present "pøítomen")
  ("n" absent "nepøítomen"))] }
-  serie {[type entier] [taille 32] [taillecar 3] [nomchamp serie] [texte serie] [no_col 1004]
- [taille_doc 48] }
+  serie {[type entier] [taille 248] [taillecar 3] [nomchamp serie] [texte serie] [no_col
+ 1004] [taille_doc 48] }
   club1 {[type club] [texte club] [taille 100] [taillecar 20] [mere ligue1] [si_modifie (verif_club
  maj_affiliation)] [nomchamp club1] [no_col 1005] [taille_doc 150] }
   ligue1 {[type ligue] [texte ligue] [taille 100] [taillecar 20] [fille club1] [mere nation1]
@@ -382,7 +381,8 @@
   categorie {[type categorie] [taille 24] [taillecar 10] [sans_saisie vrai] [si_besoin calcul_categorie]
  [nomchamp categorie] [texte categorie] [no_col 1013] [taille_doc 36]}
   sexe {[type sexe] [taille 24] [taillecar 10] [nomchamp sexe] [texte sexe] [no_col 1014]
- [taille_doc 36] [enumere (("m" masculin "muži") ("ž" feminin "ženy"))] [defaut masculin]}
+ [taille_doc 36] [enumere (("m" masculin "muži") ("ž" feminin "ženy"))] [defaut masculin]
+ }
   status {[type status] [taille 45] [taillecar 10] [defaut normal] [nomchamp status] [texte
  status] [no_col 1015] [taille_doc 67] [enumere (("n" normal "normální") ("?" abandon
  "?abandon?") ("v" exclusion "vylouèeni") ("e" forfait "neúèast"))] }
@@ -402,9 +402,9 @@
  grille_match marge_gche nom prenom presence serie club1 ligue1 nation1 date_nais
  licence licence_fie points dossard categorie sexe status paiement mode nomprenom
  marge1 marge2 marge_dte)
-  fiche_table ()
   genre masculin
-  nombre 2
+  nombre 43
+  fiche_table ()
   modifie vrai
 )
 
@@ -467,8 +467,9 @@
   champs_affiches (nom prenom presence sexe categorie date_nais licence_fie club1 ligue1 nation1)
   tous_les_champs (marge_gche titre nom prenom presence sexe categorie date_nais licence_fie club1
  ligue1 nation1 nomprenom poules matches finales marge1 marge2 marge_dte)
-  fiche_table ()
   genre masculin
+  fiche_table ()
+  nombre 0
 )
 
 (def club
@@ -497,8 +498,10 @@
   typetype entite
   champs_affiches (nom ligue1 nation1)
   tous_les_champs (marge_gche nom ligue1 nation1 effectif marge1 marge_dte)
-  fiche_table ()
   genre masculin
+  fiche_table ()
+  nombre 12
+  modifie vrai
 )
 
 (def ligue
@@ -525,8 +528,10 @@
   typetype entite
   champs_affiches (nom nation1)
   tous_les_champs (marge_gche nom nation1 effectif marge1 marge_dte)
-  fiche_table ()
   genre masculin
+  fiche_table ()
+  nombre 1
+  modifie vrai
 )
 
 (def nation
@@ -551,8 +556,9 @@
   typetype entite
   champs_affiches (nom nom_etendu)
   tous_les_champs (marge_gche nom nom_etendu effectif marge_dte)
-  fiche_table ()
   genre feminin
   modifie vrai
+  fiche_table ()
+  nombre 0
 )
 
