@@ -42,7 +42,7 @@ generate_pages() {
         echo "<h1 style='text-align:center;'>${category_name}</h1>" >> "$target_html"
 
         # Vložíme obsah všech htm souborů ze složky
-        for file in "$dir"*.htm; do
+        for file in $(ls -1t "$dir"*.htm 2>/dev/null); do
             [ -f "$file" ] || continue
             filename=$(basename "$file" .htm)
             [[ "$filename" == "index" || "$filename" == "navbar" ]] && continue
