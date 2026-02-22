@@ -7,8 +7,6 @@ INDEX_FILE="index.html"
 generate_pages() {
     # Vyčistíme starý index a začneme nový
     echo "<!DOCTYPE html><html><head><meta charset='utf-8'><title>Výsledky šermu</title>" > "$INDEX_FILE"
-    echo "<p>Univerzitní šermířská liga - 4. kolo 2025/2026</p>" > "$INDEX_FILE"
-    echo "<p> Právnická fakulta 28.3.2026</p>" > "$INDEX_FILE"
     echo "<style>
         body { font-family: sans-serif; text-align: center; background: #f4f4f4; padding: 50px; }
         .menu-container { background: white; padding: 30px; border-radius: 10px; shadow: 0 4px 15px rgba(0,0,0,0.1); display: inline-block; min-width: 300px; }
@@ -21,6 +19,8 @@ generate_pages() {
     echo "<div style='text-align:center; margin-bottom:20px;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$INDEX_FILE"
     
     echo "<div class='menu-container'><h1>Výsledky turnajů</h1>" >> "$INDEX_FILE"
+    echo "<p>Univerzitní šermířská liga - 4. kolo 2025/2026</p>" > "$INDEX_FILE"
+    echo "<p> Právnická fakulta 28.3.2026</p>" > "$INDEX_FILE"
 
     # Projdeme všechny -AUX složky a pro každou vytvoříme samostatný HTML soubor
     for dir in $(ls -td *-AUX/ 2>/dev/null); do
