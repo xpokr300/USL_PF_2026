@@ -58,7 +58,7 @@
   ligue ()
   nation ()
   poules_a_imprimer (8 7 6 5 4 3 2 1)
-  num_svg 1
+  num_svg 2
   tableauxactifs (a64 a32 a16 a8 a4 a2)
   lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
   tableaux_en_cours (a64 a32)

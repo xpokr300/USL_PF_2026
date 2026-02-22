@@ -1,0 +1,12 @@
+{[numero 3]
+ [les_tir_cons (42 31 26 14 9)]
+ [les_tir_feuille (14 42 26 9 31)]
+ [ordre_des_matches odm5]
+ [cas {[cas (2)] [ordre (1 2 3 4 5)] [odm odm5]}]
+ [critere_placement club]
+ [grille (((*** ()) (d 1) (d 3) (d 4) (d 0)) ((v 5) (*** ()) (d 3) (d 2) (d 3)) ((v 5) (v
+ 5) (*** ()) (d 0) (d 4)) ((v 5) (v 5) (v 5) (*** ()) (d 0)) ((v 5) (v 5) (v 5) (v
+ 5) (*** ())))]
+ [scores ((e 5 14 4 0 8 20) (e 4 42 4 1 13 16) (e 3 26 4 2 14 16) (e 2 9 4 3 15 11) (e 1 31
+ 4 4 20 7))]
+}
