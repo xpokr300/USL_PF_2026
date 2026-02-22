@@ -18,7 +18,7 @@ generate_pages() {
 
     echo "<div style='text-align:center; margin-bottom:20px;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$INDEX_FILE"
     
-    echo "<div class='menu-container'><h1>Výsledky turnajů</h1>" >> "$INDEX_FILE"
+    echo "<div class='menu-container'><h1>Výsledky turnajů</h1><h2>Univeryitní šermířská liga - 4. kolo 2025/2026</h2><h2> Právnická fakulta 28.3.2026</h2>" >> "$INDEX_FILE"
 
     # Projdeme všechny -AUX složky a pro každou vytvoříme samostatný HTML soubor
     for dir in $(ls -td *-AUX/ 2>/dev/null); do
