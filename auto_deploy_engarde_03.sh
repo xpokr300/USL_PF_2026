@@ -8,7 +8,7 @@ generate_pages() {
     # Vyčistíme starý index a začneme nový
     echo "<!DOCTYPE html><html><head><meta charset='utf-8'><title>Výsledky šermu</title>" > "$INDEX_FILE"
     echo "<style>
-        body { font-family: sans-serif; text-align: center; background: #f4f4f4; padding: 50px; }
+        body { font-family: sans-serif; text-align: center; background: #ffffff; padding: 50px; }
         .menu-container { background: white; padding: 30px; border-radius: 10px; shadow: 0 4px 15px rgba(0,0,0,0.1); display: inline-block; min-width: 300px; }
         .btn { display: block; padding: 15px; margin: 10px 0; background: #0055aa; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s; }
         .btn:hover { background: #003366; }

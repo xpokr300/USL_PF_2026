@@ -4,6 +4,8 @@
   selections_doc_select tous
   ordres_doc_select ordre_serie
   champs_doc_format (0 100 "Times New Roman" 10 0 0 16777215)
+  champs_info_tab_select (marge_gche num nomprenom club1)
+  champs_info_tab_taille (57 16 120 150)
 )
 
 (def formats_arbitre
