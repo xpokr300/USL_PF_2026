@@ -1,7 +1,0 @@
-{[numero 4]
- [les_tir_cons (41 32 25 17 11)]
- [les_tir_feuille (11 25 17 32 41)]
- [ordre_des_matches odm5]
- [cas {[cas (2)] [ordre (1 2 3 4 5)] [odm odm5]}]
- [critere_placement club]
-}

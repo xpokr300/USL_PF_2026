@@ -1,1 +1,0 @@
-{[classe ligue] [nom "USL"] [cle 1]}

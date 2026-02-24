@@ -1,5 +1,0 @@
-{[nom a4]
- [taille 4]
- [etat vide]
- [les_matches ({[match (() () () () () 1 4)]} {[match (() () () () () 3 2)]})]
-}

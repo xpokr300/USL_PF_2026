@@ -1,28 +1,28 @@
 (def competition
   type competition
-  titre_reduit {[type chaine] [taillecar 16] [nomchamp titre_reduit] [texte titre_reduit]}
-  titre_ligne {[type chaine] [taillecar 40] [nomchamp titre_ligne] [texte titre_ligne]}
-  organisateur {[type chaine] [taillecar 16] [nomchamp organisateur] [texte organisateur]}
-  federation {[type chaine] [taillecar 16] [nomchamp federation] [texte federation]}
+  titre_reduit {[type chaine] [taillecar 16] [nomchamp titre_reduit] [texte titre_reduit] }
+  titre_ligne {[type chaine] [taillecar 40] [nomchamp titre_ligne] [texte titre_ligne] }
+  organisateur {[type chaine] [taillecar 16] [nomchamp organisateur] [texte organisateur] }
+  federation {[type chaine] [taillecar 16] [nomchamp federation] [texte federation] }
   domaine_compe {[type domaine_compe] [taillecar 15] [defaut international] [nomchamp domaine_compe]
  [texte domaine_compe] [enumere (("m" international "mezinárodní") ("n" national
- "národní") ("r" regional "regionální") ("i" local "místní"))]}
-  championnat {[type chaine] [taillecar 16] [nomchamp championnat] [texte championnat]}
-  id {[type chaine] [taillecar 8] [nomchamp id] [texte id]}
-  annee {[type chaine] [taillecar 10] [nomchamp annee] [texte annee]}
+ "národní") ("r" regional "regionální") ("i" local "místní"))] }
+  championnat {[type chaine] [taillecar 16] [nomchamp championnat] [texte championnat] }
+  id {[type chaine] [taillecar 8] [nomchamp id] [texte id] }
+  annee {[type chaine] [taillecar 10] [nomchamp annee] [texte annee] }
   arme {[type arme] [taillecar 10] [nomchamp arme] [texte arme] [enumere (("f" fleuret "fleret")
- ("k" epee "kord") ("s" sabre "šavle"))]}
+ ("k" epee "kord") ("s" sabre "šavle"))] }
   categorie {[type categorie] [taillecar 10] [nomchamp categorie] [texte categorie] [enumere
  (("v" veteran "veterán") ("s" senior "seniori") ("j" junior "juniori") ("k" cadet
  "kadet") ("ž" minime "žáci") ("b" benjamin "benjamin") ("a" pupille "batole") ("u"
- poussin "kuøátko"))]}
+ poussin "kuøátko"))] }
   sexe {[type sexe] [taillecar 10] [defaut masculin] [nomchamp sexe] [texte sexe] [enumere
- (("m" masculin "muži") ("ž" feminin "ženy"))]}
-  date {[type date] [taillecar 10] [nomchamp date] [texte date]}
-  titre1 {[type chaine] [taillecar 40] [nomchamp titre1] [texte titre1]}
-  titre2 {[type chaine] [taillecar 40] [nomchamp titre2] [texte titre2]}
-  titre3 {[type chaine] [taillecar 40] [nomchamp titre3] [texte titre3]}
-  titre4 {[type chaine] [taillecar 40] [nomchamp titre4] [texte titre4]}
+ (("m" masculin "muži") ("ž" feminin "ženy"))] }
+  date {[type date] [taillecar 10] [nomchamp date] [texte date] }
+  titre1 {[type chaine] [taillecar 40] [nomchamp titre1] [texte titre1] }
+  titre2 {[type chaine] [taillecar 40] [nomchamp titre2] [texte titre2] }
+  titre3 {[type chaine] [taillecar 40] [nomchamp titre3] [texte titre3] }
+  titre4 {[type chaine] [taillecar 40] [nomchamp titre4] [texte titre4] }
   entites_premieres (tireur arbitre)
   tables (tireur arbitre club ligue nation)
   typetype entite
@@ -52,36 +52,29 @@
   categorie senior
   date "~28/3/2026"
   nbtir_der_svg 43
+  poules_a_saisir (1 2 3 4 5 6 7 8)
+  poules_a_imprimer (8 7 6 5 4 3 2 1)
   tireur ()
   arbitre ()
   club ()
   ligue ()
   nation ()
-  poules_a_imprimer (8 7 6 5 4 3 2 1)
-  num_svg 2
-  tableauxactifs (a64 a32 a16 a8 a4 a2)
-  lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
-  tableaux_en_cours (a16)
-  matches_a_imp (("F2" "F6" "F7" "F10" "F15" "F18" "F22" "F23" "F26" "F27" "F31") ("E2" "E6" "E7"
- "E10" "E15"))
 )
 
 (def formule
   type formule
   nombre_entites {[type entier] [taille 32] [taillecar 3] [defaut 100] [nomchamp nombre_entites] [texte
- nombre_entites] }
+ nombre_entites]}
   clasmt_origine {[type serie_points] [taille 50] [taillecar 7] [defaut serie] [nomchamp clasmt_origine]
- [texte clasmt_origine] [enumere (("n" serie "nasazení") ("b" points "body"))] }
+ [texte clasmt_origine] [enumere (("n" serie "nasazení") ("b" points "body"))]}
   entree_progressive {[type oui_non] [taille 40] [taillecar 3] [defaut non] [nomchamp entree_progressive]
- [texte entree_progressive] [enumere (("a" oui "ano") ("n" non "ne"))] }
-  nombre_touches_poules {[type entier] [defaut 5] [nomchamp nombre_touches_poules] [texte nombre_touches_poules]
- }
+ [texte entree_progressive] [enumere (("a" oui "ano") ("n" non "ne"))]}
+  nombre_touches_poules {[type entier] [defaut 5] [nomchamp nombre_touches_poules] [texte nombre_touches_poules]}
   qual_fin_poules_sur {[type entier] [taille 32] [taillecar 3] [defaut 1] [nomchamp qual_fin_poules_sur]
- [texte qual_fin_poules_sur] }
+ [texte qual_fin_poules_sur]}
   clas_fin_poules_sur {[type entier] [taille 32] [taillecar 3] [defaut 1] [nomchamp clas_fin_poules_sur]
- [texte clas_fin_poules_sur] }
-  nombre_touches_tableaux {[type entier] [defaut 15] [nomchamp nombre_touches_tableaux] [texte nombre_touches_tableaux]
- }
+ [texte clas_fin_poules_sur]}
+  nombre_touches_tableaux {[type entier] [defaut 15] [nomchamp nombre_touches_tableaux] [texte nombre_touches_tableaux]}
   typetype entite
   champs_affiches (nombre_entites clasmt_origine entree_progressive nombre_touches_poules qual_fin_poules_sur
  clas_fin_poules_sur nombre_touches_tableaux)
@@ -92,14 +85,14 @@
 
 (def ma_formule
   classe formule
-  nombre_entites 43
+  nombre_entites 30
   clasmt_origine serie
   entree_progressive non
   nombre_touches_poules 5
   qual_fin_poules_sur 1
   clas_fin_poules_sur 1
   nombre_touches_tableaux 15
-  etat tableaux
+  etat poules
   etattour en_cours
   nutour 1
 )
@@ -133,7 +126,7 @@
  ligue "stát") ("n" nation "národ"))] }
   critere_placement {[type affiliation] [taille 50] [taillecar 10] [nomchamp critere_placement] [texte
  critere_placement] [no_col 1010] [taille_doc 75] [enumere (("k" club "klub") ("s"
- ligue "stát") ("n" nation "národ"))] }
+ ligue "stát") ("n" nation "národ"))] [defaut club] }
   limite_decal {[type entier] [taille 60] [taillecar 3] [sans_saisie vrai] [invisible vrai] [nomchamp
  limite_decal] [texte limite_decal]}
   qualifies_par_poule {[type entier] [taille 80] [taillecar 3] [defaut 0] [sans_saisie vrai] [invisible
@@ -153,8 +146,8 @@
  qualifies_indice qualifies entites_fin)
   genre masculin
   nombre 1
-  fiche_table ()
   modifie vrai
+  fiche_table ()
 )
 
 (def suite_tableaux
@@ -167,23 +160,24 @@
   modeles_possibles vrai
   ordre_alpha (nom croissant)
   nom {[type chaine] [texte nom_une_lettre] [taille 24] [taillecar 3] [style majuscule]
- [obligatoire vrai] [nomchamp nom] [no_col 1001] [taille_doc 36] }
+ [obligatoire vrai] [nomchamp nom] [no_col 1001] [taille_doc 36] [saisie_bloquee
+ vrai] }
   nom_etendu {[type chaine] [taille 100] [taillecar 40] [nomchamp nom_etendu] [texte nom_etendu]
  [no_col 1002] [taille_doc 150] }
   nom_tableaux {[type chaine] [taille 100] [taillecar 40] [nomchamp nom_tableaux] [texte nom_tableaux]
- [no_col 1003] [taille_doc 150] }
+ [no_col 1003] [taille_doc 150] [saisie_bloquee vrai] }
   origine1 {[type chaine] [taille 100] [taillecar 40] [nomchamp origine1] [texte origine1] [no_col
- 1004] [taille_doc 150] }
+ 1004] [taille_doc 150] [saisie_bloquee vrai] }
   origine2 {[type chaine] [taille 100] [taillecar 40] [nomchamp origine2] [texte origine2] [no_col
- 1005] [taille_doc 150] }
+ 1005] [taille_doc 150] [saisie_bloquee vrai] }
   origine3 {[type chaine] [taille 100] [taillecar 40] [nomchamp origine3] [texte origine3] [no_col
- 1006] [taille_doc 150] }
+ 1006] [taille_doc 150] [saisie_bloquee vrai] }
   origine4 {[type chaine] [taille 100] [taillecar 40] [nomchamp origine4] [texte origine4] [no_col
- 1007] [taille_doc 150] }
+ 1007] [taille_doc 150] [saisie_bloquee vrai] }
   origine5 {[type chaine] [taille 100] [taillecar 40] [nomchamp origine5] [texte origine5] [no_col
- 1008] [taille_doc 150] }
+ 1008] [taille_doc 150] [saisie_bloquee vrai] }
   origine6 {[type chaine] [taille 100] [taillecar 40] [nomchamp origine6] [texte origine6] [no_col
- 1009] [taille_doc 150] }
+ 1009] [taille_doc 150] [saisie_bloquee vrai] }
   critere_constitution {[type critere_constitution] [taille 100] [taillecar 40] [defaut classement_initial]
  [nomchamp critere_constitution] [texte critere_constitution] [no_col 1010] [taille_doc
  150] [enumere (("p" progression_naturelle "pøirozený postup") ("o" classement_initial
@@ -208,7 +202,7 @@
   entites_dans_tableau {[type entier] [taille 60] [taillecar 3] [sans_saisie vrai] [invisible vrai] [nomchamp
  entites_dans_tableau] [texte entites_dans_tableau]}
   qualifies {[type entier] [taille 60] [taillecar 3] [defaut 0] [nomchamp qualifies] [texte qualifies]
- [no_col 1015] [taille_doc 90] }
+ [no_col 1015] [taille_doc 90] [saisie_bloquee vrai] }
   typetype entite
   champs_affiches (nom nom_etendu nom_tableaux origine1 origine2 origine3 origine4 origine5 origine6
  critere_constitution hasard_par_2 critere_decal_1 critere_decal_2 critere_decal_3
@@ -218,8 +212,8 @@
  limite_decal protege_debut entites_dans_tableau qualifies)
   genre masculin
   nombre 1
-  fiche_table ()
   modifie vrai
+  fiche_table ()
 )
 
 (def description_tableau
@@ -239,13 +233,13 @@
   classe_apres {[type chaine] [taille 100] [taillecar 20] [sans_saisie vrai] [invisible vrai] [nomchamp
  classe_apres] [texte classe_apres]}
   destination_vainqueurs {[type chaine] [taille 80] [taillecar 5] [nomchamp destination_vainqueurs] [texte
- destination_vainqueurs] [no_col 1003] [taille_doc 120] }
+ destination_vainqueurs] [no_col 1003] [taille_doc 120] [saisie_bloquee vrai] }
   destination_battus {[type chaine] [taille 80] [taillecar 5] [nomchamp destination_battus] [texte destination_battus]
- [no_col 1004] [taille_doc 120] }
+ [no_col 1004] [taille_doc 120] [saisie_bloquee vrai] }
   groupe_clasmt_vainqueur {[type entier] [taille 90] [taillecar 3] [nomchamp groupe_clasmt_vainqueur] [texte
- groupe_clasmt_vainqueur] [no_col 1005] [taille_doc 135] }
+ groupe_clasmt_vainqueur] [no_col 1005] [taille_doc 135] [saisie_bloquee vrai] }
   groupe_clasmt_battus {[type entier] [taille 90] [taillecar 3] [nomchamp groupe_clasmt_battus] [texte groupe_clasmt_battus]
- [no_col 1006] [taille_doc 135] }
+ [no_col 1006] [taille_doc 135] [saisie_bloquee vrai] }
   rang_premier_vainqueur {[type entier] [taille 80] [taillecar 3] [sans_saisie vrai] [nomchamp rang_premier_vainqueur]
  [texte rang_premier_vainqueur] [no_col 1007] [taille_doc 120]}
   rang_premier_battu {[type entier] [taille 80] [taillecar 3] [sans_saisie vrai] [nomchamp rang_premier_battu]
@@ -257,8 +251,8 @@
  groupe_clasmt_vainqueur groupe_clasmt_battus rang_premier_vainqueur rang_premier_battu)
   genre masculin
   nombre 10
-  fiche_table ()
   modifie vrai
+  fiche_table ()
 )
 
 (def criteres_arbitres
@@ -369,8 +363,8 @@
   prenom {[type chaine] [taille 80] [taillecar 20] [style titre] [nomchamp prenom] [texte
  prenom] [no_col 1002] [taille_doc 120] }
   presence {[type presence] [taille 120] [taillecar 10] [defaut present] [nomchamp presence]
- [texte presence] [no_col 1003] [taille_doc 36] [enumere (("p" present "pøítomen")
- ("n" absent "nepøítomen"))] }
+ [texte presence] [no_col 1003] [taille_doc 36] [enumere (("p" present "pøítomna")
+ ("n" absent "nepøítomna"))] }
   serie {[type entier] [taille 248] [taillecar 3] [nomchamp serie] [texte serie] [no_col
  1004] [taille_doc 48] }
   club1 {[type club] [texte club] [taille 100] [taillecar 20] [mere ligue1] [si_modifie (verif_club
@@ -416,7 +410,7 @@
  licence licence_fie points dossard categorie sexe status paiement mode nomprenom
  marge1 marge2 marge_dte)
   genre masculin
-  nombre 43
+  nombre 0
   modifie vrai
   fiche_table ()
 )
@@ -512,7 +506,7 @@
   champs_affiches (nom ligue1 nation1)
   tous_les_champs (marge_gche nom ligue1 nation1 effectif marge1 marge_dte)
   genre masculin
-  nombre 12
+  nombre 0
   modifie vrai
   fiche_table ()
 )
@@ -542,7 +536,7 @@
   champs_affiches (nom nation1)
   tous_les_champs (marge_gche nom nation1 effectif marge1 marge_dte)
   genre masculin
-  nombre 1
+  nombre 0
   modifie vrai
   fiche_table ()
 )

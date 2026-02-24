@@ -2,5 +2,5 @@
 {[classe suite_tableaux] [critere_constitution classement_initial] [hasard_par_2
  non] [protege_debut oui] [qualifies 0] [nom "A"] [nom_etendu "pøímá eliminace"]
  [nom_tableaux "eliminace ^1"] [origine1 "classement_initial 1-1000"] [entites_dans_tableau
- 34] [cle 1] [nomsy a] [origines ((classement_initial 1 1000))] [nombre_entites 1000]
- [lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)] [tableauinitial a64]}
+ 30] [cle 1] [nomsy a] [origines ((classement_initial 1 1000))] [nombre_entites 1000]
+ [lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)]}

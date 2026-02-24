@@ -1,6 +1,0 @@
-{[nom a8]
- [taille 8]
- [etat vide]
- [les_matches ({[match (() () () () () 1 8)]} {[match (() () () () () 5 4)]} {[match (() () ()
- () () 3 6)]} {[match (() () () () () 7 2)]})]
-}
