@@ -1,0 +1,6 @@
+{[classe club] [nom "VŠE"] [ligue1 1] [cle 1]}
+{[classe club] [nom "VUT"] [ligue1 1] [cle 2]}
+{[classe club] [nom "ÈVUT"] [ligue1 1] [cle 3]}
+{[classe club] [nom "UJEP"] [ligue1 1] [cle 4]}
+{[classe club] [nom "UK"] [ligue1 1] [cle 5]}
+{[classe club] [nom "TUL"] [ligue1 1] [cle 6]}

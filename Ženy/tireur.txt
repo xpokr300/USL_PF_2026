@@ -1,0 +1,50 @@
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "BABAK"] [prenom
+ "Alina"] [serie 22] [club1 1] [ligue1 1] [points 2.00] [cle 4]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "BOLELOUCKÁ"]
+ [prenom "Eliška"] [serie 9] [club1 2] [ligue1 1] [points 8.00] [cle 17]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "DVOULETÁ"]
+ [prenom "Kristýna"] [serie 4] [club1 5] [ligue1 1] [points 19.00] [cle 22]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "ELICHOVÁ"]
+ [prenom "Sára"] [serie 7] [club1 5] [ligue1 1] [points 12.00] [cle 19]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "GEORGIEVA"]
+ [prenom "Viktoria"] [serie 23] [club1 1] [ligue1 1] [points 2.00] [cle 3]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "GÜNZEL"]
+ [prenom "Hanna"] [serie 14] [club1 5] [ligue1 1] [points 4.00] [cle 12]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "HÁJKOVÁ"]
+ [prenom "Linda"] [serie 12] [club1 4] [ligue1 1] [points 7.00] [cle 14]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "HEØMÁNKOVÁ"]
+ [prenom "Amálie"] [serie 15] [club1 4] [ligue1 1] [points 3.00] [cle 11]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "HOVANÈÁKOVÁ"]
+ [prenom "Dorota"] [serie 3] [club1 1] [ligue1 1] [points 24.00] [cle 23]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "JANTOŠOVIÈOVÁ"]
+ [prenom "Lea"] [serie 8] [club1 1] [ligue1 1] [points 9.00] [cle 18]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "JASKOVSKÁ"]
+ [prenom "Alice"] [serie 6] [club1 1] [ligue1 1] [points 16.00] [cle 20]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "KOCOURKOVÁ"]
+ [prenom "Marie"] [serie 16] [club1 4] [ligue1 1] [points 3.00] [cle 10]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "KOPKOVÁ"]
+ [prenom "Hana"] [serie 1] [club1 2] [ligue1 1] [points 31.00] [cle 25]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "NOVOTNÁ"]
+ [prenom "Viktorie"] [serie 2] [club1 5] [ligue1 1] [points 31.00] [cle 24]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "PIKOUSOVÁ"]
+ [prenom "Tereza"] [serie 10] [club1 4] [ligue1 1] [points 8.00] [cle 16]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "POTOÈKOVÁ"]
+ [prenom "Kateøina"] [serie 19] [club1 3] [ligue1 1] [points 3.00] [cle 7]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "PRÙŠOVÁ"]
+ [prenom "Kristýna"] [serie 11] [club1 3] [ligue1 1] [points 8.00] [cle 15]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "SERBOUSKOVÁ"]
+ [prenom "Tereza"] [serie 21] [club1 1] [ligue1 1] [points 3.00] [cle 5]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "ŠIMKOVÁ"]
+ [prenom "Michaela"] [serie 24] [club1 2] [ligue1 1] [points 2.00] [cle 2]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "ŠIŠKOVÁ"]
+ [prenom "Julie"] [serie 13] [club1 5] [ligue1 1] [points 5.00] [cle 13]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "SMÉKALOVÁ"]
+ [prenom "Jitka"] [serie 25] [club1 1] [ligue1 1] [points 1.00] [cle 1]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "TÓBISZOVÁ"]
+ [prenom "Monika"] [serie 20] [club1 1] [ligue1 1] [points 3.00] [cle 6]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "VLÁÈILOVÁ"]
+ [prenom "Barbora"] [serie 17] [club1 1] [ligue1 1] [points 3.00] [cle 9]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "WEISOVÁ"]
+ [prenom "Kateøina"] [serie 5] [club1 6] [ligue1 1] [points 16.00] [cle 21]}
+{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "ZAVADILOVÁ"]
+ [prenom "Kateøina"] [serie 18] [club1 1] [ligue1 1] [points 3.00] [cle 8]}
