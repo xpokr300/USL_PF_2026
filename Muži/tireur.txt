@@ -1,0 +1,110 @@
+{[classe tireur] [presence absent] [sexe masculin] [status normal] [nom "ALMER"]
+ [prenom "Vojtìch"] [serie 26] [club1 1] [ligue1 1] [points 6.00] [cle 30]}
+{[classe tireur] [presence absent] [sexe masculin] [status normal] [nom "BALCAR"]
+ [prenom "Josef"] [serie 2] [club1 12] [ligue1 1] [points 48.00] [cle 54]}
+{[classe tireur] [presence absent] [sexe masculin] [status normal] [nom "BAROÒ"]
+ [prenom "Vladimír"] [serie 28] [club1 1] [ligue1 1] [points 5.00] [cle 28]}
+{[classe tireur] [presence absent] [sexe masculin] [status normal] [nom "BARTOŠ"]
+ [prenom "Daniel"] [serie 46] [club1 1] [ligue1 1] [points 2.00] [cle 10]}
+{[classe tireur] [presence absent] [sexe masculin] [status normal] [nom "BUKOVIÈ"]
+ [prenom "Martin"] [serie 52] [club1 2] [ligue1 1] [points 1.00] [cle 4]}
+{[classe tireur] [presence absent] [sexe masculin] [status normal] [nom "BURIMSKIJ"]
+ [prenom "Timofej"] [serie 37] [club1 1] [ligue1 1] [points 3.00] [cle 19]}
+{[classe tireur] [presence absent] [sexe masculin] [status normal] [nom "ÈERNÝ"]
+ [prenom "Jan"] [serie 36] [club1 1] [ligue1 1] [points 3.00] [cle 20]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "FILIP"]
+ [prenom "Jan"] [serie 5] [club1 11] [ligue1 1] [points 26.00] [cle 51]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "HAJŽMAN"]
+ [prenom "Michal"] [serie 21] [club1 2] [ligue1 1] [points 8.00] [cle 35]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "HARTMANN"]
+ [prenom "Jan"] [serie 14] [club1 1] [ligue1 1] [points 12.00] [cle 42]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "HAVRÁNEK"]
+ [prenom "Jindøich"] [serie 45] [club1 1] [ligue1 1] [points 2.00] [cle 11]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "HEJDUK"]
+ [prenom "Jan"] [serie 40] [club1 1] [ligue1 1] [points 2.00] [cle 16]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "HÖBAUS"]
+ [prenom "Max"] [serie 27] [club1 2] [ligue1 1] [points 6.00] [cle 29]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "HOLTVIANSKYI"]
+ [prenom "Denys"] [serie 43] [club1 1] [ligue1 1] [points 2.00] [cle 13]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "IVANÈO"]
+ [prenom "Robin"] [serie 1] [club1 6] [ligue1 1] [points 59.00] [cle 55]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "JAKEŠ"]
+ [prenom "Martin"] [serie 29] [club1 5] [ligue1 1] [points 4.00] [cle 27]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "JANKÙ"]
+ [prenom "Jakub"] [serie 15] [club1 2] [ligue1 1] [points 11.00] [cle 41]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "JINDRA"]
+ [prenom "Miroslav"] [serie 33] [club1 2] [ligue1 1] [points 4.00] [cle 23]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "JIRAN"]
+ [prenom "Jan"] [serie 25] [club1 1] [ligue1 1] [points 6.00] [cle 31]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "JURÁÒ"]
+ [prenom "Jiøí"] [serie 24] [club1 6] [ligue1 1] [points 6.00] [cle 32]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "KLEÈÁK"]
+ [prenom "Filip"] [serie 8] [club1 3] [ligue1 1] [points 17.00] [cle 48]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "KORBA"]
+ [prenom "Matyáš"] [serie 41] [club1 4] [ligue1 1] [points 2.00] [cle 15]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "KRÁTKÝ"]
+ [prenom "Jiøí"] [serie 35] [club1 1] [ligue1 1] [points 3.00] [cle 21]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "KUCHAØ"]
+ [prenom "Matìj"] [serie 7] [club1 2] [ligue1 1] [points 18.00] [cle 49]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "KUTIL"]
+ [prenom "Dušan"] [serie 44] [club1 3] [ligue1 1] [points 2.00] [cle 12]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "KYTLER"]
+ [prenom "Erik"] [serie 49] [club1 1] [ligue1 1] [points 1.00] [cle 7]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "LESOVSKÝ"]
+ [prenom "Tadeáš"] [serie 39] [club1 3] [ligue1 1] [points 2.00] [cle 17]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "LIDICKÝCH"]
+ [prenom "Winther"] [serie 47] [club1 2] [ligue1 1] [points 1.00] [cle 9]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "LINER"]
+ [prenom "Jiøí"] [serie 22] [club1 1] [ligue1 1] [points 8.00] [cle 34]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "MACHEK"]
+ [prenom "Kryštof"] [serie 31] [club1 4] [ligue1 1] [points 4.00] [cle 25]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "MATOUŠEK"]
+ [prenom "David"] [serie 19] [club1 5] [ligue1 1] [points 9.00] [cle 37]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "MUSIL"]
+ [prenom "Tomáš"] [serie 6] [club1 12] [ligue1 1] [points 19.00] [cle 50]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "NETOPIL"]
+ [prenom "Petr"] [serie 30] [club1 2] [ligue1 1] [points 4.00] [cle 26]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "NOVÁK"]
+ [prenom "Martin"] [serie 13] [club1 9] [ligue1 1] [points 14.00] [cle 43]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "OCHEC"]
+ [prenom "Prokop"] [serie 11] [club1 11] [ligue1 1] [points 16.00] [cle 45]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "PHAM"]
+ [prenom "Daniel"] [serie 23] [club1 7] [ligue1 1] [points 6.00] [cle 33]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "PROCHÁZKA"]
+ [prenom "Dominik"] [serie 50] [club1 1] [ligue1 1] [points 1.00] [cle 6]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "PUSTÌJOVSKÝ"]
+ [prenom "Vladimír"] [serie 12] [club1 10] [ligue1 1] [points 14.00] [cle 44]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "RÁÈEK"]
+ [prenom "Jakub"] [serie 9] [club1 3] [ligue1 1] [points 17.00] [cle 47]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "RUSAKOV"]
+ [prenom "Serhii"] [serie 34] [club1 1] [ligue1 1] [points 4.00] [cle 22]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "SEDLÁK"]
+ [prenom "Petr"] [serie 16] [club1 4] [ligue1 1] [points 9.00] [cle 40]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "SEKERA"]
+ [prenom "Alexandr"] [serie 20] [club1 1] [ligue1 1] [points 9.00] [cle 36]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "ŠÍMA"]
+ [prenom "Jiøí"] [serie 54] [club1 1] [ligue1 1] [points 1.00] [cle 2]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "ŠIMÙNSKÝ"]
+ [prenom "Ondøej"] [serie 4] [club1 6] [ligue1 1] [points 29.00] [cle 52]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "SMITH"]
+ [prenom "Victor"] [serie 55] [club1 1] [ligue1 1] [points 1.00] [cle 1]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "SMITKA"]
+ [prenom "Jan"] [serie 18] [club1 8] [ligue1 1] [points 9.00] [cle 38]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "SMUTNÝ"]
+ [prenom "Richard"] [serie 17] [club1 2] [ligue1 1] [points 9.00] [cle 39]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "SOUKAL"]
+ [prenom "Sdominik"] [serie 51] [club1 1] [ligue1 1] [points 1.00] [cle 5]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "STAVROVSKÝ"]
+ [prenom "Michal"] [serie 42] [club1 1] [ligue1 1] [points 2.00] [cle 14]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "ŠTORKÁN"]
+ [prenom "Ondøej"] [serie 38] [club1 1] [ligue1 1] [points 3.00] [cle 18]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "SVÁTEK"]
+ [prenom "Ota"] [serie 32] [club1 2] [ligue1 1] [points 4.00] [cle 24]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "VANDROVEC"]
+ [prenom "Ondøej"] [serie 10] [club1 6] [ligue1 1] [points 17.00] [cle 46]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "VASILEVSKII"]
+ [prenom "Laroslav"] [serie 48] [club1 3] [ligue1 1] [points 1.00] [cle 8]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "VÁVRA"]
+ [prenom "Vojtìch"] [serie 3] [club1 1] [ligue1 1] [points 36.00] [cle 53]}
+{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "YUCHSHENKO"]
+ [prenom "Alexandr"] [serie 53] [club1 1] [ligue1 1] [points 1.00] [cle 3]}

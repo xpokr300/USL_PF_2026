@@ -1,4 +1,0 @@
-{[classe tour_de_poules] [entites_exemptees 0] [nombre_poules 5] [entites_par_poule
- 6] [critere_placement club] [qualifies_par_poule 0] [qualifies_indice 30] [qualifies
- 30] [entites_fin 30] [numero 1] [entites_depart 30] [entites_dans_poules 30] [critere_decal_1
- club] [cle 1] [nonsuppr vrai]}
