@@ -16,7 +16,7 @@ generate_pages() {
         .footer { margin-top: 20px; font-size: 0.8em; color: #888; }
     </style></head><body>" >> "$INDEX_FILE"
 
-   echo "<div class='menu-container' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; font-family: sans-serif;'>" >> "$INDEX_FILE"
+    echo "<div class='menu-container' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; font-family: sans-serif;'>" >> "$INDEX_FILE"
     echo "  <a href='https://sermliga.eu/' style='color: #004494; text-decoration: underline;'>Oficiální web Univerzitní šermířské ligy</a>" >> "$INDEX_FILE"
     echo "  <a href='https://sermliga.eu/wp-content/uploads/2026/02/Propozice_USL_28_3_2026.pdf' style='color: #004494; text-decoration: underline;'>Propozice</a>" >> "$INDEX_FILE"
     echo "</div>" >> "$INDEX_FILE"
