@@ -62,9 +62,10 @@ EOF
     echo "    <span id='seconds'>00</span><span style='font-size: 0.4em; color: #666;'>s</span>" >> "$INDEX_FILE"
     echo "</div>" >> "$INDEX_FILE"        
     echo "</div>" >> "$INDEX_FILE"
-# Tlačítko, které po kliknutí vyhodí jednoduchou hlášku
-echo "<button onclick=\"alert('Tady jsou podrobnosti o turnaji: Startujeme v 10:00!')\" style='background-color: #004494; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold;'>INFO</button>" >> "$INDEX_FILE"
-    echo "</div>" >> "$INDEX_FILE"
+# Tlačítko
+# Tajné (neviditelné) tlačítko
+# opacity: 0 ho zneviditelní, ale nechá ho klikatelné
+echo "<button id='secret-button' onclick=\"alert('Našel jsi tajný vstup! Heslo pro dnešek je: HUMANITA2026')\" style='opacity: 0; cursor: pointer; background: #004494; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: opacity 0.5s;'>TAJNÝ VSTUP</button>" >> "$INDEX_FILE"    echo "</div>" >> "$INDEX_FILE"
 
 
     echo "<div style='text-align:center; margin-bottom:20px;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$INDEX_FILE"
