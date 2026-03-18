@@ -63,7 +63,7 @@ EOF
     echo "</div>" >> "$INDEX_FILE"        
     echo "</div>" >> "$INDEX_FILE"
 
-    echo "<button id='secret-button' onclick=\"alert('Našel jsi tajný vstup! Heslo pro dnešek je: HUMANITA2026')\" style='opacity: 0; cursor: pointer; background: #004494; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: opacity 0.5s;'>TAJNÝ VSTUP</button>" >> "$INDEX_FILE"    
+    echo "<button id='secret-button' onclick=\"alert('Našel jsi tajný vstup! Heslo pro dnešek je: SlávaHumanitě')\" style='opacity: 0; cursor: pointer; background: #004494; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: opacity 0.5s;'>TAJNÝ VSTUP</button>" >> "$INDEX_FILE"    
     echo "</div>" >> "$INDEX_FILE"
 
 
@@ -71,7 +71,7 @@ EOF
     
     echo "<div class='menu-container'><h1>Výsledky</h1><h2>Univerzitní šermířská liga - 4. kolo 2025/2026</h2><h2> Právnická fakulta 28.3.2026</h2></div>" >> "$INDEX_FILE"
 
-    echo "<div class='menu-container' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; font-family: sans-serif; 'font-size: 0.4em'><a href='https://sermliga.eu' style='color: #004494; text-decoration: underline;'>Oficiální webová stránka UŠL</a><a href='https://sermliga.eu/wp-content/uploads/2026/02/Propozice_USL_28_3_2026.pdf' style='color: #004494; text-decoration: underline;'>Propozice</a></div>" >> "$INDEX_FILE"
+    echo "<div class='menu-container' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; font-family: sans-serif;'><a href='https://sermliga.eu' style='color: #004494; text-decoration: underline; font-size: 0.4em'>Oficiální webová stránka UŠL</a><a href='https://sermliga.eu/wp-content/uploads/2026/02/Propozice_USL_28_3_2026.pdf' style='color: #004494; text-decoration: underline; font-size: 0.4em'>Propozice</a></div>" >> "$INDEX_FILE"
 
     # Projdeme všechny -AUX složky a pro každou vytvoříme samostatný HTML soubor
     for dir in $(ls -td *-AUX/ 2>/dev/null); do
