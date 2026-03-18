@@ -16,11 +16,10 @@ generate_pages() {
         .footer { margin-top: 20px; font-size: 0.8em; color: #888; }
     </style></head><body>" >> "$INDEX_FILE"
 
-    echo "<div style='text-align:center; margin-bottom:20px;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$INDEX_FILE"
-    
-    echo "<div class='menu-container'><h1>Výsledky</h1><h2>Univerzitní šermířská liga - 4. kolo 2025/2026</h2><h2> Právnická fakulta 28.3.2026</h2></div>" >> "$INDEX_FILE"
-
-    echo "<div class='menu-container'><a href='https://sermliga.eu/'>Oficiální web Univerzitní šermířské ligy</a> <a href='https://sermliga.eu/wp-content/uploads/2026/02/Propozice_USL_28_3_2026.pdf'>Propozice</a></div>" >> "$INDEX_FILE"
+   echo "<div class='menu-container' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; font-family: sans-serif;'>" >> "$INDEX_FILE"
+    echo "  <a href='https://sermliga.eu/' style='color: #004494; text-decoration: underline;'>Oficiální web Univerzitní šermířské ligy</a>" >> "$INDEX_FILE"
+    echo "  <a href='https://sermliga.eu/wp-content/uploads/2026/02/Propozice_USL_28_3_2026.pdf' style='color: #004494; text-decoration: underline;'>Propozice</a>" >> "$INDEX_FILE"
+    echo "</div>" >> "$INDEX_FILE"
 
     # Projdeme všechny -AUX složky a pro každou vytvoříme samostatný HTML soubor
     for dir in $(ls -td *-AUX/ 2>/dev/null); do
