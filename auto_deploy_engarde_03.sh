@@ -16,6 +16,13 @@ generate_pages() {
         .footer { margin-top: 20px; font-size: 0.8em; color: #888; }
     </style></head><body>" >> "$INDEX_FILE"
 
+    echo "<div id='countdown-container' style='text-align:center; font-family:sans-serif; margin: 20px 0; padding: 20px; border: 1px solid #004494; border-radius: 8px; background-color: #f9f9f9;'>" >> "$INDEX_FILE"
+echo "  <h3 style='margin-top:0;'>Akce začíná za:</h3>" >> "$INDEX_FILE"
+echo "  <div id='timer' style='font-size: 1.5em; font-weight: bold; color: #004494;'>" >> "$INDEX_FILE"
+echo "    <span id='days'>00</span>d <span id='hours'>00</span>h <span id='minutes'>00</span>m <span id='seconds'>00</span>s" >> "$INDEX_FILE"
+echo "  </div>" >> "$INDEX_FILE"
+echo "</div>" >> "$INDEX_FILE"
+
     echo "<div style='text-align:center; margin-bottom:20px;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$INDEX_FILE"
     
     echo "<div class='menu-container'><h1>Výsledky</h1><h2>Univerzitní šermířská liga - 4. kolo 2025/2026</h2><h2> Právnická fakulta 28.3.2026</h2></div>" >> "$INDEX_FILE"
@@ -86,3 +93,39 @@ while true; do
     echo "HOTOVO: Rozcestník i podstránky odeslány."
     echo "----------------------------------------------------"
 done
+
+
+cat <<EOF >> "$INDEX_FILE"
+<script>
+    // Nastavení cílového data
+    const countDownDate = new Date("March 28, 2026 10:00:00").getTime();
+
+    // Aktualizace každou sekundu
+    const x = setInterval(function() {
+
+        // Získání aktuálního času
+        const now = new Date().getTime();
+
+        // Výpočet vzdálenosti mezi nyní a cílem
+        const distance = countDownDate - now;
+
+        // Výpočty pro dny, hodiny, minuty a sekundy
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Vypsání výsledku do elementů
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        // Pokud odpočet skončí
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown-container").innerHTML = "<h3 style='color:red;'>AKCE PRÁVĚ ZAČALA!</h3>";
+        }
+    }, 1000);
+</script>
+EOF
