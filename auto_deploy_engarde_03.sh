@@ -53,11 +53,12 @@ cat <<EOF >> "$INDEX_FILE"
 EOF
 
     echo "<div id='countdown-container' style='text-align:center; font-family:sans-serif; margin: 20px 0; padding: 20px; border: 1px solid #004494; border-radius: 8px; background-color: #f9f9f9;'>" >> "$INDEX_FILE"
-    echo "  <h3 style='margin-top:0;'>Akce začíná za:</h3>" >> "$INDEX_FILE"
-    cho "  <div id='timer' style='font-size: 1.5em; font-weight: bold; color: #004494;'>" >> "$INDEX_FILE"
-    echo "    <span id='days'>00</span>d <span id='hours'>00</span>h <span id='minutes'>00</span>m <span id='seconds'>00</span>s" >> "$INDEX_FILE"
+    echo "  <h3 style='margin-top:0;'>Turnaj začíná za:</h3>" >> "$INDEX_FILE"
+    echo "    <div><span id='days'>00</span><span style='font-size: 0.3em; font-weight: 400; color: #666; margin-left: 2px;'>d</span></div>" >> "$INDEX_FILE"
+    echo "    <div><span id='hours'>00</span><span style='font-size: 0.3em; font-weight: 400; color: #666; margin-left: 2px;'>h</span></div>" >> "$INDEX_FILE"
+    echo "    <div><span id='minutes'>00</span><span style='font-size: 0.3em; font-weight: 400; color: #666; margin-left: 2px;'>m</span></div>" >> "$INDEX_FILE"
+    cho "    <div><span id='seconds'>00</span><span style='font-size: 0.3em; font-weight: 400; color: #666; margin-left: 2px;'>s</span></div>" >> "$INDEX_FILE"
     echo "  </div>" >> "$INDEX_FILE"
-    echo "</div>" >> "$INDEX_FILE"
 
     echo "<div style='text-align:center; margin-bottom:20px;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$INDEX_FILE"
     
