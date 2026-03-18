@@ -20,7 +20,7 @@ generate_pages() {
     
     echo "<div class='menu-container'><h1>Výsledky</h1><h2>Univerzitní šermířská liga - 4. kolo 2025/2026</h2><h2> Právnická fakulta 28.3.2026</h2></div>" >> "$INDEX_FILE"
 
-    echo "<div class='menu-container' style='display: flex; justify-content: center; gap: 20px; margin: 20px 0; font-family: sans-serif;'><a href='https://sermliga.eu' style='color: #004494; text-decoration: underline;'>Oficiální webové stránky</a></div>" >> "$INDEX_FILE"
+    echo "<div class='menu-container' style='display: flex; justify-content: center; margin: 20px 0; font-family: sans-serif;'><a href='https://sermliga.eu' style='color: #004494; text-decoration: underline;'>Oficiální webové stránky</a></div>" >> "$INDEX_FILE"
 
     # Projdeme všechny -AUX složky a pro každou vytvoříme samostatný HTML soubor
     for dir in $(ls -td *-AUX/ 2>/dev/null); do
