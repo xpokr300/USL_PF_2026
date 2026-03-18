@@ -62,6 +62,8 @@ EOF
     echo "    <span id='seconds'>00</span><span style='font-size: 0.4em; color: #666;'>s</span>" >> "$INDEX_FILE"
     echo "</div>" >> "$INDEX_FILE"        
     echo "</div>" >> "$INDEX_FILE"
+    echo "</div>" >> "$INDEX_FILE"
+
 
     echo "<div style='text-align:center; margin-bottom:20px;'><img src='logo.png' style='max-width:200px;' onerror='this.style.display=\"none\"'></div>" >> "$INDEX_FILE"
     
