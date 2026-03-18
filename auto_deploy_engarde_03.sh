@@ -46,14 +46,14 @@ cat <<EOF >> "$INDEX_FILE"
         // Pokud odpočet skončí
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown-container").innerHTML = "<h3 style='color:red;'>AKCE PRÁVĚ ZAČALA!</h3>";
+            document.getElementById("countdown-container").innerHTML = "<h3 style='color:red;'>Kordy již řinčí!!!!!</h3>";
         }
     }, 1000);
 </script>
 EOF
 
     echo "<div id='countdown-container' style='text-align:center; font-family:sans-serif; margin: 20px 0; padding: 20px; border: 1px solid #004494; border-radius: 8px; background-color: #f9f9f9;'>" >> "$INDEX_FILE"
-    echo "  <h3 style='margin-top:0;'>Akce začíná za:</h3>" >> "$INDEX_FILE"
+    echo "  <h3 style='margin-top:0;'>Turnaj začíná za:</h3>" >> "$INDEX_FILE"
     echo "  <div id='timer' style='font-size: 1.5em; font-weight: bold; color: #004494;'>" >> "$INDEX_FILE"
     echo "<div style='text-align:center; font-family:sans-serif; font-size: 2.5em; font-weight: 800; color: #004494; margin: 20px 0; letter-spacing: -1px;'>" >> "$INDEX_FILE"
     echo "    <span id='days'>00</span><span style='font-size: 0.4em; color: #666; margin-right: 10px;'>d</span>" >> "$INDEX_FILE"
@@ -62,6 +62,7 @@ EOF
     echo "    <span id='seconds'>00</span><span style='font-size: 0.4em; color: #666;'>s</span>" >> "$INDEX_FILE"
     echo "</div>" >> "$INDEX_FILE"        
     echo "</div>" >> "$INDEX_FILE"
+echo "  <button id='action-button' style='background-color: #004494; color: white; border: none; padding: 12px 40px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; min-width: 200px; transition: background 0.3s;'> </button>" >> "$INDEX_FILE"
     echo "</div>" >> "$INDEX_FILE"
 
 
