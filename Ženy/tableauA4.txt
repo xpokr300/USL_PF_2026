@@ -1,5 +1,5 @@
 {[nom a4]
  [taille 4]
- [etat vide]
- [les_matches ({[match (() () () () () 1 4)]} {[match (() () () () () 3 2)]})]
+ [etat en_cours]
+ [les_matches ({[match (24 23 () () () 1 4)]} {[match (18 21 () () () 3 2)]})]
 }

@@ -1,7 +1,7 @@
 {[nom a8]
  [taille 8]
- [etat en_cours]
- [les_matches ({[match (24 22 () () () 1 8)] [piste_no 1] [heure "~18:30"]} {[match (23 27 () ()
- () 5 4)] [piste_no 2] [heure "~18:30"]} {[match (() 20 () () () 3 6)] [piste_no
- 3] [heure "~18:30"]} {[match (21 16 () () () 7 2)] [piste_no 4] [heure "~18:30"]})]
+ [etat termine]
+ [les_matches ({[match (24 22 15 3 24 1 8)] [piste_no ""] [heure "~18:30"]} {[match (23 27 15 8
+ 23 5 4)] [piste_no ""] [heure "~18:30"]} {[match (18 20 12 8 18 3 6)] [piste_no
+ ""] [heure "~18:30"]} {[match (21 16 15 6 21 7 2)] [piste_no ""] [heure "~18:30"]})]
 }
