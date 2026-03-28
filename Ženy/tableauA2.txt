@@ -1,5 +1,5 @@
 {[nom a2]
  [taille 2]
  [etat en_cours]
- [les_matches ({[match (24 21 () () () 1 2)]})]
+ [les_matches ({[match (24 21 () () () 1 2)] [piste_no "2"] [heure "~19:20"]})]
 }
