@@ -61,7 +61,7 @@
   ligue ()
   nation ()
   tableaux_en_cours (a32 a16)
-  matches_a_imp (("D1" "D3" "D5"))
+  matches_a_imp (("D1" "D3" "D4" "D5" "D7"))
 )
 
 (def formule
