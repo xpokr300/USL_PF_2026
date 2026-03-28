@@ -1,10 +1,10 @@
 {[nom a16]
  [taille 16]
  [etat en_cours]
- [les_matches ({[match (24 29 () () () 1 16)] [piste_no 1] [heure "~18:00"]} {[match (25 22 ()
- () () 9 8)] [piste_no ""] [heure "~18:15"] [imprime vrai]} {[match (23 26 15 8 23
- 5 12)] [piste_no ""] [heure "~18:00"] [imprime vrai]} {[match (14 27 () () () 13
- 4)] [piste_no 2] [heure "~18:15"]} {[match (2 18 () () () 3 14)] [piste_no 3] [heure
+ [les_matches ({[match (24 29 () () () 1 16)] [piste_no ""] [heure "~18:00"]} {[match (25 22 14
+ 15 22 9 8)] [piste_no ""] [heure "~18:15"] [imprime vrai]} {[match (23 26 15 8 23
+ 5 12)] [piste_no ""] [heure "~18:00"] [imprime vrai]} {[match (14 27 9 15 27 13
+ 4)] [piste_no ""] [heure "~18:15"]} {[match (2 18 () () () 3 14)] [piste_no 3] [heure
  "~18:00"]} {[match (19 20 () () () 11 6)] [piste_no 3] [heure "~18:15"] [imprime
  vrai]} {[match (21 30 15 3 21 7 10)] [piste_no ""] [heure "~18:00"] [imprime vrai]}
  {[match (3 16 () () () 15 2)] [piste_no 4] [heure "~18:15"]})]

@@ -1,7 +1,7 @@
 {[nom a8]
  [taille 8]
- [etat preparation]
- [les_matches ({[match (() () () () () 1 8)] [piste_no 1] [heure "~18:30"]} {[match (23 () () ()
+ [etat en_cours]
+ [les_matches ({[match (() 22 () () () 1 8)] [piste_no 1] [heure "~18:30"]} {[match (23 27 () ()
  () 5 4)] [piste_no 2] [heure "~18:30"]} {[match (() () () () () 3 6)] [piste_no
  3] [heure "~18:30"]} {[match (21 () () () () 7 2)] [piste_no 4] [heure "~18:30"]})]
 }
