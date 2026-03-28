@@ -60,7 +60,7 @@
   club ()
   ligue ()
   nation ()
-  tableaux_en_cours (a16)
+  tableaux_en_cours (a8)
 )
 
 (def formule
