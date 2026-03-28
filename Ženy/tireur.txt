@@ -4,6 +4,8 @@
  [prenom "Eliška"] [serie 9] [club1 2] [ligue1 1] [points 8.00] [cle 17]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "DVOULETÁ"]
  [prenom "Kristýna"] [serie 4] [club1 5] [ligue1 1] [points 19.00] [cle 22]}
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "ÈIPRYÈ"]
+ [prenom "Veronika"] [serie 999] [club1 5] [ligue1 1] [cle 26]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "ELICHOVÁ"]
  [prenom "Sára"] [serie 7] [club1 5] [ligue1 1] [points 12.00] [cle 19]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "GEORGIEVA"]
@@ -24,7 +26,7 @@
  [prenom "Marie"] [serie 16] [club1 4] [ligue1 1] [points 3.00] [cle 10]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "KOPKOVÁ"]
  [prenom "Hana"] [serie 1] [club1 2] [ligue1 1] [points 31.00] [cle 25]}
-{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "NOVOTNÁ"]
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "NOVOTNÁ"]
  [prenom "Viktorie"] [serie 2] [club1 5] [ligue1 1] [points 31.00] [cle 24]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "PIKOUSOVÁ"]
  [prenom "Tereza"] [serie 10] [club1 4] [ligue1 1] [points 8.00] [cle 16]}
@@ -42,9 +44,11 @@
  [prenom "Jitka"] [serie 25] [club1 1] [ligue1 1] [points 1.00] [cle 1]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "TÓBISZOVÁ"]
  [prenom "Monika"] [serie 20] [club1 1] [ligue1 1] [points 3.00] [cle 6]}
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "URBÁNKOVÁ"]
+ [prenom "Krára"] [serie 999] [club1 4] [ligue1 1] [cle 27]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "VLÁÈILOVÁ"]
  [prenom "Barbora"] [serie 17] [club1 1] [ligue1 1] [points 3.00] [cle 9]}
-{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "WEISOVÁ"]
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "WEISOVÁ"]
  [prenom "Kateøina"] [serie 5] [club1 6] [ligue1 1] [points 16.00] [cle 21]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "ZAVADILOVÁ"]
  [prenom "Kateøina"] [serie 18] [club1 1] [ligue1 1] [points 3.00] [cle 8]}

@@ -6,7 +6,7 @@
  [prenom "Vladimír"] [serie 28] [club1 1] [ligue1 1] [points 5.00] [cle 28]}
 {[classe tireur] [presence present] [sexe masculin] [status normal] [nom "BARTOŠ"]
  [prenom "Daniel"] [serie 46] [club1 1] [ligue1 1] [points 2.00] [cle 10]}
-{[classe tireur] [presence present] [sexe masculin] [status normal] [nom "BENEŠ"]
+{[classe tireur] [presence present] [sexe masculin] [status exclusion] [nom "BENEŠ"]
  [prenom "Adam"] [serie 999] [club1 1] [ligue1 1] [cle 56]}
 {[classe tireur] [presence present] [sexe masculin] [status normal] [nom "BUKOVÈAN"]
  [prenom "Martin"] [serie 52] [club1 2] [ligue1 1] [points 1.00] [cle 4]}

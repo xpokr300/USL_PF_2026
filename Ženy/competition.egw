@@ -410,7 +410,7 @@
  licence licence_fie points dossard categorie sexe status paiement mode nomprenom
  marge1 marge2 marge_dte)
   genre feminin
-  nombre 25
+  nombre 27
   modifie vrai
   fiche_table ()
 )
