@@ -73,7 +73,7 @@
  vrai]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "VLÁÈILOVÁ"]
  [prenom "Barbora"] [serie 17] [club1 1] [ligue1 1] [points 3.00] [cle 9]}
-{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "WEISSOVÁ"]
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "WEISOVÁ"]
  [prenom "Kateøina"] [serie 5] [club1 6] [ligue1 1] [points 16.00] [cle 21] [rangpoule
  0] [dans_compe vrai]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "ZAVADILOVÁ"]
