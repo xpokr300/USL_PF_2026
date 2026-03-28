@@ -61,7 +61,7 @@
   tableauxactifs (a32 a16 a8 a4 a2)
   lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
   tableaux_en_cours (a16 a8)
-  matches_a_imp (("D1" "D5") ("C2" "C4"))
+  matches_a_imp (("D5") ("C1" "C2" "C4"))
 )
 
 (def formule
