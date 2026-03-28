@@ -97,7 +97,7 @@
   qual_fin_poules_sur 1
   clas_fin_poules_sur 1
   nombre_touches_tableaux 15
-  etat tableaux
+  etat termine
   etattour en_cours
   nutour 1
 )
