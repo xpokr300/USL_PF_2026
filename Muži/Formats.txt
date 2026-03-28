@@ -8,6 +8,11 @@
   champs_pou_const_taille (57 120 150 63 32 48 50 50)
   champs_feuilles_pou_select (marge_gche nomprenom club1 num grille_feuille signature marge1 marge2)
   champs_feuilles_pou_taille (57 120 150 16 200 120 50 50)
+  champs_feuilles_match_select (marge_gche nomprenom club1 grille_match signature marge1 marge2)
+  champs_feuilles_match_taille (57 120 150 200 120 50 50)
+  champs_clas_select (marge_gche rang nomprenom club1 nation1 marge1 marge2 marge_dte)
+  champs_clas_taille (57 32 120 150 63 50 50 50)
+  ordres_clas_select ordre_rang
 )
 
 (def formats_arbitre

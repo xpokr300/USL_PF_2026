@@ -1,0 +1,9 @@
+{[numero 4]
+ [les_tir_cons (22 21 4 3 26)]
+ [les_tir_feuille (22 26 4 3 21)]
+ [ordre_des_matches odm5]
+ [cas {[cas (2)] [ordre (1 2 3 4 5)] [odm odm5]}]
+ [critere_placement club]
+ [heure "~15:00"]
+ [piste_no 4]
+}
