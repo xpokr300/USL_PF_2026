@@ -52,7 +52,7 @@
   categorie senior
   date "~28/3/2026"
   nbtir_der_svg 43
-  num_svg 5
+  num_svg 6
   tableauxactifs (a32 a16 a8 a4 a2)
   lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
   tireur ()

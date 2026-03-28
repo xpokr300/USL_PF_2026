@@ -1,0 +1,16 @@
+{[classe arbitre] [titre &arbitre] [presence present] [nom "BÉREŠ"] [prenom "Daniel"]
+ [cle 8]}
+{[classe arbitre] [titre &arbitre] [presence present] [nom "CIMLER"] [prenom "Èestmír"]
+ [cle 3]}
+{[classe arbitre] [titre &arbitre] [presence present] [nom "HAJŽMAN"] [prenom "Michal"]
+ [cle 4]}
+{[classe arbitre] [titre &arbitre] [presence present] [nom "KAIL"] [prenom "Daniel"]
+ [cle 2]}
+{[classe arbitre] [titre &arbitre] [presence present] [nom "LÁTAL"] [prenom "Martin"]
+ [cle 1]}
+{[classe arbitre] [titre &arbitre] [presence present] [nom "OMELKA"] [prenom "Antonín"]
+ [cle 7]}
+{[classe arbitre] [titre &arbitre] [presence present] [nom "TOBISZOVA"] [prenom "Monika"]
+ [cle 5]}
+{[classe arbitre] [titre &arbitre] [presence present] [nom "ZELENKA"] [prenom "Jiøí"]
+ [cle 6]}

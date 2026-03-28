@@ -15,7 +15,7 @@
  a8 a4 a2)] [groupe_clasmt_battus 6] [rang_premier_battu 17]}
 {[classe description_tableau] [suite a] [nom a64] [nom_etendu "eliminace 64"] [cle
  6] [nombre_entites 64] [taille 64] [destination_vainqueurs a32] [classe_apres (a32
- a16 a8 a4 a2)] [groupe_clasmt_battus 7] [rang_premier_battu 33] [inactif vrai]}
+ a16 a8 a4 a2)] [groupe_clasmt_battus 7] [rang_premier_battu 33]}
 {[classe description_tableau] [suite a] [nom a128] [nom_etendu "eliminace 128"] [cle
  7] [nombre_entites 128] [taille 128] [destination_vainqueurs a64] [classe_apres
  (a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 8] [rang_premier_battu 65] [inactif
