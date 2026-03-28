@@ -4,4 +4,6 @@
  [ordre_des_matches odm5]
  [cas {[cas (2)] [ordre (1 2 3 4 5)] [odm odm5]}]
  [critere_placement club]
+ [heure "~15:00"]
+ [piste_no 1]
 }

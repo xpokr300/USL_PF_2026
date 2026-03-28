@@ -2,6 +2,6 @@
  [taille 8]
  [etat preparation]
  [les_matches ({[match (43 () () () () 1 8)] [piste_no "1"] [heure "~16:30"]} {[match (42 () ()
- () () 5 4)] [piste_no "2"] [heure "~16:30"]} {[match (() () () () () 3 6)] [piste_no
- "3"] [heure "~16:30"]} {[match (() () () () () 7 2)] [piste_no "4"] [heure "~16:30"]})]
+ () () 5 4)] [piste_no "2"] [heure "~16:30"]} {[match (51 () () () () 3 6)] [piste_no
+ "3"] [heure "~16:30"]} {[match (23 () () () () 7 2)] [piste_no "4"] [heure "~16:30"]})]
 }
