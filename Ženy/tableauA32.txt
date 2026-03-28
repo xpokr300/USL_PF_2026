@@ -1,11 +1,13 @@
 {[nom a32]
  [taille 32]
- [etat en_cours]
- [les_matches ({[match (24 nobody () () 24 1 32)]} {[match (29 28 () () () 17 16)]} {[match (25
- nobody () () 25 9 24)]} {[match (nobody 22 () () 22 25 8)]} {[match (23 nobody ()
- () 23 5 28)]} {[match (nobody 26 () () 26 21 12)]} {[match (14 4 () () () 13 20)]}
+ [etat termine]
+ [les_matches ({[match (24 nobody () () 24 1 32)]} {[match (29 28 15 4 29 17 16)] [imprime vrai]
+ [piste_no ""] [heure "~0:00"]} {[match (25 nobody () () 25 9 24)]} {[match (nobody
+ 22 () () 22 25 8)]} {[match (23 nobody () () 23 5 28)]} {[match (nobody 26 () ()
+ 26 21 12)]} {[match (14 4 15 9 14 13 20)] [imprime vrai] [piste_no ""] [heure "~0:00"]}
  {[match (nobody 27 () () 27 29 4)]} {[match (2 nobody () () 2 3 30)]} {[match (18
- 12 () () () 19 14)]} {[match (19 nobody () () 19 11 22)]} {[match (nobody 20 ()
- () 20 27 6)]} {[match (21 nobody () () 21 7 26)]} {[match (nobody 30 () () 30 23
- 10)]} {[match (3 13 () () () 15 18)]} {[match (nobody 16 () () 16 31 2)]})]
+ 12 15 10 18 19 14)] [imprime vrai] [piste_no ""] [heure "~0:00"]} {[match (19 nobody
+ () () 19 11 22)]} {[match (nobody 20 () () 20 27 6)]} {[match (21 nobody () () 21
+ 7 26)]} {[match (nobody 30 () () 30 23 10)]} {[match (3 13 15 abandon 3 15 18)]
+ [imprime vrai] [piste_no ""] [heure "~0:00"]} {[match (nobody 16 () () 16 31 2)]})]
 }
