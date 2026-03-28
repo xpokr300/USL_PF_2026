@@ -1,0 +1,7 @@
+{[numero 3]
+ [les_tir_cons (43 36 27 24 16 4 2 62)]
+ [les_tir_feuille (36 2 43 24 16 27 4 62)]
+ [ordre_des_matches odm8]
+ [cas {[cas (3 2 1)] [ordre (1 2 5 4 7 6 8 3)] [odm odm8]}]
+ [critere_placement club]
+}

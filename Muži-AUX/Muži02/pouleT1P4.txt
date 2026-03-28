@@ -1,0 +1,6 @@
+{[numero 4]
+ [les_tir_cons (42 41 25 20 9 6 59 57)]
+ [les_tir_feuille (25 9 41 59 20 57 6 42)]
+ [ordre_des_matches odm8]
+ [critere_placement club]
+}

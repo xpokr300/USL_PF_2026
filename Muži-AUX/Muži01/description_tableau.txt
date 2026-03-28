@@ -18,17 +18,15 @@
  a16 a8 a4 a2)] [groupe_clasmt_battus 7] [rang_premier_battu 33]}
 {[classe description_tableau] [suite a] [nom a128] [nom_etendu "eliminace 128"] [cle
  7] [nombre_entites 128] [taille 128] [destination_vainqueurs a64] [classe_apres
- (a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 8] [rang_premier_battu 65] [inactif
- vrai]}
+ (a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 8] [rang_premier_battu 65]}
 {[classe description_tableau] [suite a] [nom a256] [nom_etendu "eliminace 256"] [cle
  8] [nombre_entites 256] [taille 256] [destination_vainqueurs a128] [classe_apres
- (a128 a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 9] [rang_premier_battu 129] [inactif
- vrai]}
+ (a128 a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 9] [rang_premier_battu 129]}
 {[classe description_tableau] [suite a] [nom a512] [nom_etendu "eliminace 512"] [cle
  9] [nombre_entites 512] [taille 512] [destination_vainqueurs a256] [classe_apres
  (a256 a128 a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 10] [rang_premier_battu
- 257] [inactif vrai]}
+ 257]}
 {[classe description_tableau] [suite a] [nom a1024] [nom_etendu "eliminace 1024"]
  [cle 10] [nombre_entites 1000] [taille 1024] [destination_vainqueurs a512] [classe_apres
  (a512 a256 a128 a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 11] [rang_premier_battu
- 513] [inactif vrai]}
+ 513]}

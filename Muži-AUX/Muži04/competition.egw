@@ -62,6 +62,7 @@
   poules_a_imprimer (1 2 3 4)
   tableauxactifs (a64 a32 a16 a8 a4 a2)
   lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
+  modifie vrai
 )
 
 (def formule

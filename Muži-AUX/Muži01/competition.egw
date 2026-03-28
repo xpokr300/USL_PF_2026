@@ -52,16 +52,14 @@
   categorie senior
   date "~28/3/2026"
   nbtir_der_svg 43
-  poules_a_saisir (1 2 3 4)
+  poules_a_saisir (4 3 2 1)
   tireur ()
   arbitre ()
   club ()
   ligue ()
   nation ()
-  num_svg 4
-  poules_a_imprimer (1 2 3 4)
-  tableauxactifs (a64 a32 a16 a8 a4 a2)
-  lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
+  poules_a_imprimer (4 3 2 1)
+  num_svg 1
 )
 
 (def formule
