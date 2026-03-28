@@ -1,5 +1,6 @@
 {[nom a4]
  [taille 4]
- [etat vide]
- [les_matches ({[match (() () () () () 1 4)]} {[match (() () () () () 3 2)]})]
+ [etat en_cours]
+ [les_matches ({[match (43 32 () () () 1 4)] [piste_no "3"] [heure "~16:15"] [imprime vrai]} {[match
+ (51 23 () () () 3 2)] [piste_no "4"] [heure "~16:15"] [imprime vrai]})]
 }
