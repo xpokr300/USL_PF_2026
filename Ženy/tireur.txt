@@ -2,6 +2,8 @@
  [prenom "Alina"] [serie 22] [club1 1] [ligue1 1] [points 2.00] [cle 4]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "BOLELOUCKÁ"]
  [prenom "Eliška"] [serie 9] [club1 2] [ligue1 1] [points 8.00] [cle 17]}
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "CHERNUKHA"]
+ [prenom "Veronika"] [club1 1] [ligue1 1] [cle 30]}
 {[classe tireur] [presence present] [sexe feminin] [status normal] [nom "DOSTÁLOVÁ"]
  [prenom "Pavla"] [serie 999] [club1 5] [ligue1 1] [cle 28]}
 {[classe tireur] [presence present] [sexe feminin] [status normal] [nom "DVOULETÁ"]
@@ -12,7 +14,7 @@
  [prenom "Sára"] [serie 7] [club1 5] [ligue1 1] [points 12.00] [cle 19]}
 {[classe tireur] [presence present] [sexe feminin] [status normal] [nom "GARKUŠA"]
  [prenom "Anastasija"] [serie 999] [club1 1] [ligue1 1] [cle 29]}
-{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "GEORGIEVA"]
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "GEORGIEVA"]
  [prenom "Viktoria"] [serie 23] [club1 1] [ligue1 1] [points 2.00] [cle 3]}
 {[classe tireur] [presence present] [sexe feminin] [status normal] [nom "GÜNZEL"]
  [prenom "Hanna"] [serie 14] [club1 5] [ligue1 1] [points 4.00] [cle 12]}
