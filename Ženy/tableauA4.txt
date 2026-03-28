@@ -1,5 +1,6 @@
 {[nom a4]
  [taille 4]
- [etat en_cours]
- [les_matches ({[match (24 23 () () () 1 4)]} {[match (18 21 () () () 3 2)]})]
+ [etat termine]
+ [les_matches ({[match (24 23 15 11 24 1 4)] [piste_no ""] [heure "~0:00"]} {[match (18 21 9 15
+ 21 3 2)] [piste_no ""] [heure "~0:00"]})]
 }
