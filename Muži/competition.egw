@@ -60,7 +60,8 @@
   club ()
   ligue ()
   nation ()
-  tableaux_en_cours (a32)
+  tableaux_en_cours (a32 a16)
+  matches_a_imp (("D1" "D3" "D5"))
 )
 
 (def formule

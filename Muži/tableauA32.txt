@@ -2,19 +2,19 @@
  [taille 32]
  [etat en_cours]
  [les_matches ({[match (43 10 15 2 43 1 32)] [piste_no "1"] [heure "~13:45"] [imprime vrai]} {[match
- (36 1 () () () 17 16)] [piste_no "1"] [heure "~14:00"] [imprime vrai]} {[match (25
+ (36 1 15 10 36 17 16)] [piste_no "1"] [heure "~14:00"] [imprime vrai]} {[match (25
  9 () () () 9 24)] [piste_no "1"] [heure "~14:15"] [imprime vrai]} {[match (6 27
  () () () 25 8)] [piste_no "1"] [heure "~14:30"] [imprime vrai]} {[match (42 58 15
- 4 42 5 28)] [piste_no "2"] [heure "~13:45"] [imprime vrai]} {[match (3 57 () ()
- () 21 12)] [piste_no "2"] [heure "~14:00"] [imprime vrai]} {[match (59 60 () ()
- () 13 20)] [piste_no "2"] [heure "~14:15"] [imprime vrai]} {[match (62 32 () ()
- () 29 4)] [piste_no "2"] [heure "~14:30"] [imprime vrai]} {[match (51 18 () () ()
- 3 30)] [piste_no "3"] [heure "~13:45"] [imprime vrai]} {[match (24 28 () () () 19
- 14)] [piste_no "3"] [heure "~14:00"] [imprime vrai]} {[match (41 34 () () () 11
- 22)] [piste_no "3"] [heure "~14:15"] [imprime vrai]} {[match (4 29 () () () 27 6)]
- [piste_no "3"] [heure "~14:30"] [imprime vrai]} {[match (23 20 15 4 23 7 26)] [piste_no
- "4"] [heure "~13:45"] [imprime vrai]} {[match (16 61 () () () 23 10)] [piste_no
- "4"] [heure "~14:00"] [imprime vrai]} {[match (46 11 () () () 15 18)] [piste_no
- "4"] [heure "~14:15"] [imprime vrai]} {[match (2 33 () () () 31 2)] [piste_no "4"]
- [heure "~14:30"] [imprime vrai]})]
+ 4 42 5 28)] [piste_no "2"] [heure "~13:45"] [imprime vrai]} {[match (3 57 3 15 57
+ 21 12)] [piste_no "2"] [heure "~14:00"] [imprime vrai]} {[match (59 60 () () ()
+ 13 20)] [piste_no "2"] [heure "~14:15"] [imprime vrai]} {[match (62 32 () () ()
+ 29 4)] [piste_no "2"] [heure "~14:30"] [imprime vrai]} {[match (51 18 15 7 51 3
+ 30)] [piste_no "3"] [heure "~13:45"] [imprime vrai]} {[match (24 28 15 7 24 19 14)]
+ [piste_no "3"] [heure "~14:00"] [imprime vrai]} {[match (41 34 () () () 11 22)]
+ [piste_no "3"] [heure "~14:15"] [imprime vrai]} {[match (4 29 () () () 27 6)] [piste_no
+ "3"] [heure "~14:30"] [imprime vrai]} {[match (23 20 15 4 23 7 26)] [piste_no "4"]
+ [heure "~13:45"] [imprime vrai]} {[match (16 61 () () () 23 10)] [piste_no "4"]
+ [heure "~14:00"] [imprime vrai]} {[match (46 11 () () () 15 18)] [piste_no "4"]
+ [heure "~14:15"] [imprime vrai]} {[match (2 33 4 15 33 31 2)] [piste_no "4"] [heure
+ "~14:30"] [imprime vrai]})]
 }
