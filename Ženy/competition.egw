@@ -60,8 +60,8 @@
   num_svg 1
   tableauxactifs (a32 a16 a8 a4 a2)
   lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
-  tableaux_en_cours (a32 a16)
-  matches_a_imp (("D4" "D5" "D8"))
+  tableaux_en_cours (a16)
+  matches_a_imp (("D1" "D4" "D5" "D8"))
 )
 
 (def formule
