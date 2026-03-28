@@ -1,8 +1,10 @@
-{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "BABAK"] [prenom
- "Alina"] [serie 22] [club1 1] [ligue1 1] [points 2.00] [cle 4]}
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "BABAK"]
+ [prenom "Alina"] [serie 22] [club1 1] [ligue1 1] [points 2.00] [cle 4]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "BOLELOUCKÁ"]
  [prenom "Eliška"] [serie 9] [club1 2] [ligue1 1] [points 8.00] [cle 17]}
-{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "DVOULETÁ"]
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "DOSTÁLOVÁ"]
+ [prenom "Pavla"] [serie 999] [club1 5] [ligue1 1] [cle 28]}
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "DVOULETÁ"]
  [prenom "Kristýna"] [serie 4] [club1 5] [ligue1 1] [points 19.00] [cle 22]}
 {[classe tireur] [presence present] [sexe feminin] [status normal] [nom "ÈIPRYÈ"]
  [prenom "Veronika"] [serie 999] [club1 5] [ligue1 1] [cle 26]}
@@ -24,11 +26,11 @@
  [prenom "Alice"] [serie 6] [club1 1] [ligue1 1] [points 16.00] [cle 20]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "KOCOURKOVÁ"]
  [prenom "Marie"] [serie 16] [club1 4] [ligue1 1] [points 3.00] [cle 10]}
-{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "KOPKOVÁ"]
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "KOPKOVÁ"]
  [prenom "Hana"] [serie 1] [club1 2] [ligue1 1] [points 31.00] [cle 25]}
 {[classe tireur] [presence present] [sexe feminin] [status normal] [nom "NOVOTNÁ"]
  [prenom "Viktorie"] [serie 2] [club1 5] [ligue1 1] [points 31.00] [cle 24]}
-{[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "PIKOUSOVÁ"]
+{[classe tireur] [presence present] [sexe feminin] [status normal] [nom "PIKOUSOVÁ"]
  [prenom "Tereza"] [serie 10] [club1 4] [ligue1 1] [points 8.00] [cle 16]}
 {[classe tireur] [presence absent] [sexe feminin] [status normal] [nom "POTOÈKOVÁ"]
  [prenom "Kateøina"] [serie 19] [club1 3] [ligue1 1] [points 3.00] [cle 7]}

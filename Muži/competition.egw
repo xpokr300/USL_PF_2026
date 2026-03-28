@@ -52,7 +52,7 @@
   categorie senior
   date "~28/3/2026"
   nbtir_der_svg 43
-  num_svg 5
+  num_svg 6
   tableauxactifs (a32 a16 a8 a4 a2)
   lestableaux (a1024 a512 a256 a128 a64 a32 a16 a8 a4 a2)
   tireur ()
@@ -61,8 +61,6 @@
   ligue ()
   nation ()
   tableaux_en_cours (a32)
-  matches_a_imp (("E1" "E2" "E3" "E4" "E5" "E6" "E7" "E8" "E9" "E10" "E11" "E12" "E13" "E14" "E15"
- "E16"))
 )
 
 (def formule
