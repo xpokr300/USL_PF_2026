@@ -1,10 +1,10 @@
 {[nom a16]
  [taille 16]
  [etat en_cours]
- [les_matches ({[match (43 36 () () () 1 16)] [piste_no "1"] [heure "~14:30"]} {[match (25 () ()
+ [les_matches ({[match (43 36 () () () 1 16)] [piste_no "1"] [heure "~14:30"]} {[match (25 27 ()
  () () 9 8)] [piste_no "1"] [heure "~14:45"]} {[match (42 57 () () () 5 12)] [piste_no
  "2"] [heure "~14:30"]} {[match (59 32 () () () 13 4)] [piste_no "2"] [heure "~14:45"]}
- {[match (51 24 () () () 3 14)] [piste_no "3"] [heure "~14:30"]} {[match (() () ()
+ {[match (51 24 () () () 3 14)] [piste_no "3"] [heure "~14:30"]} {[match (41 29 ()
  () () 11 6)] [piste_no "3"] [heure "~14:45"]} {[match (23 16 () () () 7 10)] [piste_no
- "4"] [heure "~14:30"]} {[match (() 33 () () () 15 2)] [piste_no "4"] [heure "~14:45"]})]
+ "4"] [heure "~14:30"]} {[match (46 33 () () () 15 2)] [piste_no "4"] [heure "~14:45"]})]
 }
