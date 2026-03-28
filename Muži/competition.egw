@@ -52,8 +52,8 @@
   categorie senior
   date "~28/3/2026"
   nbtir_der_svg 43
-  poules_a_saisir (1 2 3 4 5 6 7 8)
-  poules_a_imprimer (8 7 6 5 4 3 2 1)
+  poules_a_saisir (4 3 2 1)
+  poules_a_imprimer (4 3 2 1)
   tireur ()
   arbitre ()
   club ()
@@ -64,17 +64,19 @@
 (def formule
   type formule
   nombre_entites {[type entier] [taille 32] [taillecar 3] [defaut 100] [nomchamp nombre_entites] [texte
- nombre_entites]}
+ nombre_entites] }
   clasmt_origine {[type serie_points] [taille 50] [taillecar 7] [defaut serie] [nomchamp clasmt_origine]
- [texte clasmt_origine] [enumere (("n" serie "nasazení") ("b" points "body"))]}
+ [texte clasmt_origine] [enumere (("n" serie "nasazení") ("b" points "body"))] }
   entree_progressive {[type oui_non] [taille 40] [taillecar 3] [defaut non] [nomchamp entree_progressive]
- [texte entree_progressive] [enumere (("a" oui "ano") ("n" non "ne"))]}
-  nombre_touches_poules {[type entier] [defaut 5] [nomchamp nombre_touches_poules] [texte nombre_touches_poules]}
+ [texte entree_progressive] [enumere (("a" oui "ano") ("n" non "ne"))] }
+  nombre_touches_poules {[type entier] [defaut 5] [nomchamp nombre_touches_poules] [texte nombre_touches_poules]
+ }
   qual_fin_poules_sur {[type entier] [taille 32] [taillecar 3] [defaut 1] [nomchamp qual_fin_poules_sur]
- [texte qual_fin_poules_sur]}
+ [texte qual_fin_poules_sur] }
   clas_fin_poules_sur {[type entier] [taille 32] [taillecar 3] [defaut 1] [nomchamp clas_fin_poules_sur]
- [texte clas_fin_poules_sur]}
-  nombre_touches_tableaux {[type entier] [defaut 15] [nomchamp nombre_touches_tableaux] [texte nombre_touches_tableaux]}
+ [texte clas_fin_poules_sur] }
+  nombre_touches_tableaux {[type entier] [defaut 15] [nomchamp nombre_touches_tableaux] [texte nombre_touches_tableaux]
+ }
   typetype entite
   champs_affiches (nombre_entites clasmt_origine entree_progressive nombre_touches_poules qual_fin_poules_sur
  clas_fin_poules_sur nombre_touches_tableaux)
@@ -85,7 +87,7 @@
 
 (def ma_formule
   classe formule
-  nombre_entites 30
+  nombre_entites 32
   clasmt_origine serie
   entree_progressive non
   nombre_touches_poules 5
@@ -145,7 +147,7 @@
  critere_decal_1 critere_decal_2 critere_decal_3 critere_placement limite_decal qualifies_par_poule
  qualifies_indice qualifies entites_fin)
   genre masculin
-  nombre 0
+  nombre 1
   modifie vrai
   fiche_table ()
 )
@@ -211,7 +213,7 @@
  critere_constitution hasard_par_2 critere_decal_1 critere_decal_2 critere_decal_3
  limite_decal protege_debut entites_dans_tableau qualifies)
   genre masculin
-  nombre 0
+  nombre 1
   modifie vrai
   fiche_table ()
 )
@@ -250,7 +252,7 @@
   tous_les_champs (serie nom nom_etendu nombre_entites classe_apres destination_vainqueurs destination_battus
  groupe_clasmt_vainqueur groupe_clasmt_battus rang_premier_vainqueur rang_premier_battu)
   genre masculin
-  nombre 0
+  nombre 10
   modifie vrai
   fiche_table ()
 )
@@ -475,8 +477,9 @@
   tous_les_champs (marge_gche titre nom prenom presence sexe categorie date_nais licence_fie club1
  ligue1 nation1 nomprenom poules matches finales marge1 marge2 marge_dte)
   genre masculin
-  nombre 0
+  nombre 8
   fiche_table ()
+  modifie vrai
 )
 
 (def club

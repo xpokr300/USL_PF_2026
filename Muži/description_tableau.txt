@@ -1,0 +1,32 @@
+{[classe description_tableau] [suite a] [nom a2] [nom_etendu "finále"] [cle 1] [nombre_entites
+ 2] [taille 2] [groupe_clasmt_vainqueur 1] [groupe_clasmt_battus 2] [rang_premier_vainqueur
+ 1] [finales vrai] [rang_premier_battu 2]}
+{[classe description_tableau] [suite a] [nom a4] [nom_etendu "semifinále )"] [cle
+ 2] [nombre_entites 4] [taille 4] [destination_vainqueurs a2] [classe_apres (a2)]
+ [groupe_clasmt_battus 3] [finales vrai] [rang_premier_battu 3]}
+{[classe description_tableau] [suite a] [nom a8] [nom_etendu "ètvrt finale"] [cle
+ 3] [nombre_entites 8] [taille 8] [destination_vainqueurs a4] [classe_apres (a4 a2)]
+ [groupe_clasmt_battus 4] [finales vrai] [rang_premier_battu 5]}
+{[classe description_tableau] [suite a] [nom a16] [nom_etendu "eliminace 16"] [cle
+ 4] [nombre_entites 16] [taille 16] [destination_vainqueurs a8] [classe_apres (a8
+ a4 a2)] [groupe_clasmt_battus 5] [rang_premier_battu 9]}
+{[classe description_tableau] [suite a] [nom a32] [nom_etendu "eliminace 32"] [cle
+ 5] [nombre_entites 32] [taille 32] [destination_vainqueurs a16] [classe_apres (a16
+ a8 a4 a2)] [groupe_clasmt_battus 6] [rang_premier_battu 17]}
+{[classe description_tableau] [suite a] [nom a64] [nom_etendu "eliminace 64"] [cle
+ 6] [nombre_entites 64] [taille 64] [destination_vainqueurs a32] [classe_apres (a32
+ a16 a8 a4 a2)] [groupe_clasmt_battus 7] [rang_premier_battu 33]}
+{[classe description_tableau] [suite a] [nom a128] [nom_etendu "eliminace 128"] [cle
+ 7] [nombre_entites 128] [taille 128] [destination_vainqueurs a64] [classe_apres
+ (a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 8] [rang_premier_battu 65]}
+{[classe description_tableau] [suite a] [nom a256] [nom_etendu "eliminace 256"] [cle
+ 8] [nombre_entites 256] [taille 256] [destination_vainqueurs a128] [classe_apres
+ (a128 a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 9] [rang_premier_battu 129]}
+{[classe description_tableau] [suite a] [nom a512] [nom_etendu "eliminace 512"] [cle
+ 9] [nombre_entites 512] [taille 512] [destination_vainqueurs a256] [classe_apres
+ (a256 a128 a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 10] [rang_premier_battu
+ 257]}
+{[classe description_tableau] [suite a] [nom a1024] [nom_etendu "eliminace 1024"]
+ [cle 10] [nombre_entites 1000] [taille 1024] [destination_vainqueurs a512] [classe_apres
+ (a512 a256 a128 a64 a32 a16 a8 a4 a2)] [groupe_clasmt_battus 11] [rang_premier_battu
+ 513]}
